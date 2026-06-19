@@ -4,7 +4,7 @@ export default function AdvertiserDisclosure() {
       <h1 className="text-4xl font-black mb-8">Divulgação de Publicidade</h1>
       <div className="prose prose-invert max-w-none text-white/70 space-y-6">
         <p>
-          O top10sitiosdecasino.org é um portal de comparação e avaliação independente que é financiado por taxas de publicidade dos operadores que aparecem no nosso site.
+          O topsitiosdecasino.org é um portal de comparação e avaliação independente que é financiado por taxas de publicidade dos operadores que aparecem no nosso site.
         </p>
         <h2 className="text-2xl font-bold text-white mt-8">Como Ganhamos Dinheiro</h2>
         <p>

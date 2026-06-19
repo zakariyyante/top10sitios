@@ -61,12 +61,12 @@ export default function AboutSection() {
               </div>
               <div className="p-6 rounded-2xl bg-white/[0.02] border border-white/5 hover:border-cyan-500/30 transition-colors">
                 <div className="flex justify-between items-center mb-2">
-                  <span className="font-black text-white uppercase tracking-widest text-xs">Portal SICAD</span>
+                  <span className="font-black text-white uppercase tracking-widest text-xs">SRIJ Portugal</span>
                   <svg className="w-4 h-4 text-cyan-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
                   </svg>
                 </div>
-                <a href="http://www.sicad.pt" target="_blank" className="text-cyan-400 font-black underline decoration-2 underline-offset-4">www.sicad.pt</a>
+                <a href="https://www.srij.turismodeportugal.pt/" target="_blank" className="text-cyan-400 font-black underline decoration-2 underline-offset-4">www.srij.turismodeportugal.pt</a>
               </div>
             </div>
           </div>

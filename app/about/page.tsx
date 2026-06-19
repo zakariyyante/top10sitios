@@ -4,7 +4,7 @@ export default function AboutPage() {
       <h1 className="text-4xl font-black mb-8">Sobre Nós</h1>
       <div className="prose prose-invert max-w-none text-white/70 space-y-6">
         <p>
-          O top10sitiosdecasino.org é a sua fonte de confiança para encontrar os melhores casinos online em Portugal. A nossa missão é fornecer avaliações honestas, transparentes e detalhadas para ajudar os jogadores a tomar decisões informadas.
+          O topsitiosdecasino.org é a sua fonte de confiança para encontrar os melhores casinos online em Portugal. A nossa missão é fornecer avaliações honestas, transparentes e detalhadas para ajudar os jogadores a tomar decisões informadas.
         </p>
         <h2 className="text-2xl font-bold text-white mt-8">O Que Fazemos</h2>
         <p>

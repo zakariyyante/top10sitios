@@ -40,14 +40,13 @@ export default function Footer() {
             <div className="flex flex-col gap-4">
               <h4 className="text-white font-bold uppercase tracking-widest text-xs">Responsável</h4>
               <Link href="https://www.srij.turismodeportugal.pt/" target="_blank" className="text-sm text-white/50 hover:text-white transition-colors">SRIJ Portugal</Link>
-              <Link href="https://www.sicad.pt" target="_blank" className="text-sm text-white/50 hover:text-white transition-colors">SICAD</Link>
             </div>
           </div>
         </div>
 
         <div className="max-w-4xl mx-auto text-center mb-12">
           <p className="text-[10px] text-white/30 leading-relaxed uppercase tracking-wider">
-            AVISO: O top10sitiosdecasino.org é um portal de afiliados independente. As nossas avaliações são baseadas na nossa experiência e pesquisa. 
+            AVISO: O topsitiosdecasino.org é um portal de afiliados independente. As nossas avaliações são baseadas na nossa experiência e pesquisa. 
             Recebemos comissões dos operadores listados. O jogo é proibido para menores de 18 anos. 
             Todos os operadores listados são regulados pelo SRIJ - Serviço de Regulação e Inspeção de Jogos de Portugal.
           </p>
@@ -59,9 +58,6 @@ export default function Footer() {
           </div>
           <div className="relative w-24 h-10">
             <Image src="/srij.svg" alt="SRIJ" fill className="object-contain" />
-          </div>
-          <div className="relative w-20 h-10">
-            <Image src="/sicad.svg" alt="SICAD" fill className="object-contain" />
           </div>
           <div className="relative w-32 h-10">
             <Image src="/begambleaware.svg" alt="BeGambleAware" fill className="object-contain" />
@@ -76,7 +72,7 @@ export default function Footer() {
 
         <div className="text-center border-t border-white/5 pt-8">
           <p className="text-xs text-white/20">
-            © {currentYear} top10sitiosdecasino.org. Todos os direitos reservados.
+            © {currentYear} topsitiosdecasino.org. Todos os direitos reservados.
           </p>
         </div>
       </div>

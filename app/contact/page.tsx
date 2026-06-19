@@ -11,8 +11,8 @@ export default function ContactPage() {
           <div className="space-y-4">
             <div className="flex items-center gap-4">
               <span className="text-cyan-400 font-bold">Email:</span>
-              <a href="mailto:admin@top10sitiosdecasino.org" className="text-white hover:text-cyan-400 transition-colors">
-                admin@top10sitiosdecasino.org
+              <a href="mailto:admin@topsitiosdecasino.org" className="text-white hover:text-cyan-400 transition-colors">
+                admin@topsitiosdecasino.org
               </a>
             </div>
             <p className="text-sm text-white/50 mt-4">
