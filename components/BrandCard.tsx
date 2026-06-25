@@ -20,7 +20,10 @@ declare global {
 export default function BrandCard({ brand, index, gclid, compact }: BrandCardProps) {
   const buildUrl = (url: string, gclid?: string) => {
     if (!gclid) return url;
-    return `${url}${gclid}`;
+    // If URL already ends with an empty parameter (e.g. clickid=), append gclid directly
+    if (url.endsWith('=')) return `${url}${gclid}`;
+    // Otherwise, append as a new parameter
+    return url.includes('?') ? `${url}&gclid=${gclid}` : `${url}?gclid=${gclid}`;
   };
 
   const handleCardClick = () => {
