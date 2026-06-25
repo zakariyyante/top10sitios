@@ -4,6 +4,7 @@ import BrandCard from "@/components/BrandCard";
 import ComplianceBar from "@/components/ComplianceBar";
 import AboutSection from "@/components/AboutSection";
 import MobileModal from "@/components/MobileModal";
+import { headers } from "next/headers";
 
 interface PageProps {
   searchParams: Promise<{ [key: string]: string | string[] | undefined }>;
@@ -12,6 +13,17 @@ interface PageProps {
 export default async function Home({ searchParams }: PageProps) {
   const params = await searchParams;
   const gclid = typeof params.gclid === 'string' ? params.gclid : undefined;
+  
+  const headerList = await headers();
+  const userAgent = headerList.get("user-agent") || "";
+  const isMobileDevice = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(userAgent);
+
+  const filteredBrands = brands.filter(brand => {
+    if (brand.isMobile) {
+      return isMobileDevice && gclid;
+    }
+    return true;
+  });
 
   return (
     <>
@@ -31,7 +43,7 @@ export default async function Home({ searchParams }: PageProps) {
           </div>
 
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
-            {brands.map((brand, index) => (
+            {filteredBrands.map((brand, index) => (
               <BrandCard 
                 key={brand.id} 
                 brand={brand} 
@@ -47,7 +59,7 @@ export default async function Home({ searchParams }: PageProps) {
       
       <AboutSection />
 
-      <MobileModal brands={brands} />
+      <MobileModal brands={filteredBrands} />
     </>
   );
 }

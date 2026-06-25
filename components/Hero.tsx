@@ -7,7 +7,7 @@ export default function Hero() {
         <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-cyan-500/10 border border-cyan-500/20 mb-8 backdrop-blur-sm">
           <span className="w-2 h-2 rounded-full bg-cyan-400 animate-pulse shadow-[0_0_10px_#22d3ee]" />
           <span className="text-xs md:text-sm font-black text-cyan-400 uppercase tracking-[0.2em]">
-            Portugal&apos;s Elite Casino Guide {currentYear}
+            Guia de Casinos Elite de Portugal {currentYear}
           </span>
         </div>
 
