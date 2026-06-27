@@ -28,7 +28,13 @@ export default function BrandCard({ brand, index, gclid, compact }: BrandCardPro
 
   const handleCardClick = () => {
     const finalUrl = buildUrl(brand.url, gclid);
-    track('Brand Click', { brand: brand.name });
+    
+    // Track Vercel Analytics
+    track('Brand Click', { 
+      brand: brand.name,
+      location: compact ? 'mobile_modal' : 'main_grid'
+    });
+
     if (typeof window !== 'undefined' && window.gtag_report_conversion) {
       window.gtag_report_conversion(finalUrl);
     }
