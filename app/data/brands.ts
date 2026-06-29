@@ -39,10 +39,10 @@ export const brands: Brand[] = [
   {
     id: "GinjaCasino",
     name: "GinjaCasino",
-    logo: "/brands/lolajack.webp",
+    logo: "/brands/GINJA.png",
     rating: 9.9,
     bonus: "PACOTE DE BOAS-ATÉ €1000 + 555RG",
-    url: "https://bestcpa.online/click?o=500&a=36&sub_id1=GinjaCasino-ANTEPT15&aff_click_id=",
+    url: "https://bestcpa.online/click?o=500&a=36&sub_id1=GinjaCasino-SL2PT7&aff_click_id=",
     isMobile: true,
     votes: 5921,
     badge: "new_casino",
