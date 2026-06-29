@@ -34,6 +34,17 @@ export const brands: Brand[] = [
     url: "https://spinreelz777.net/dnjreg7bl?subid=SpinReelz-SL2PT7&visit_id=",
     isMobile: true,
     votes: 5921,
+    badge: "fast_withdrawal",
+  },
+  {
+    id: "GinjaCasino",
+    name: "GinjaCasino",
+    logo: "/brands/lolajack.webp",
+    rating: 9.9,
+    bonus: "PACOTE DE BOAS-ATÉ €1000 + 555RG",
+    url: "https://bestcpa.online/click?o=500&a=36&sub_id1=GinjaCasino-ANTEPT15&aff_click_id=",
+    isMobile: true,
+    votes: 5921,
     badge: "new_casino",
   },
   {
@@ -45,7 +56,6 @@ export const brands: Brand[] = [
     url: "https://go.driveaffiliates.com/visit/?bta=35516&nci=5425&utm_campaign=X3Bet-SL2PT7&afp=",
     isMobile: true,
     votes: 5921,
-    badge: "fast_withdrawal",
   },
   // {
   //   id: "CrownGreen",
