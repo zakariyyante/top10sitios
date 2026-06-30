@@ -24,6 +24,17 @@ export const brands: Brand[] = [
     badge: "fast_withdrawal",
   },
   {
+    id: "GinjaCasino",
+    name: "GinjaCasino",
+    logo: "/brands/GINJA.png",
+    rating: 9.9,
+    bonus: "PACOTE DE BOAS-ATÉ €1000 + 555RG",
+    url: "https://bestcpa.online/click?o=500&a=36&sub_id1=GinjaCasino-SL2PT7&aff_click_id=",
+    isMobile: true,
+    votes: 5921,
+    badge: "new_casino",
+  },
+  {
     id: "LolaJack",
     name: "LolaJack",
     logo: "/brands/lolajack.webp",
@@ -36,17 +47,7 @@ export const brands: Brand[] = [
   },
   
   
-  {
-    id: "GinjaCasino",
-    name: "GinjaCasino",
-    logo: "/brands/GINJA.png",
-    rating: 9.9,
-    bonus: "PACOTE DE BOAS-ATÉ €1000 + 555RG",
-    url: "https://bestcpa.online/click?o=500&a=36&sub_id1=GinjaCasino-SL2PT7&aff_click_id=",
-    isMobile: true,
-    votes: 5921,
-    badge: "new_casino",
-  },
+  
   {
     id: "X3Bet",
     name: "X3Bet",
