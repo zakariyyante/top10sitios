@@ -11,18 +11,6 @@ export interface Brand {
 }
 
 export const brands: Brand[] = [
-  
-  {
-    id: "SpinReelz",
-    name: "SpinReelz",
-    logo: "/brands/spinreelz.svg",
-    rating: 9.9,
-    bonus: "425% até 5500€ + 525RG",
-    url: "https://spinreelz777.net/dnjreg7bl?subid=SpinReelz-SL2PT7&visit_id=",
-    isMobile: true,
-    votes: 5921,
-    badge: "fast_withdrawal",
-  },
   {
     id: "GinjaCasino",
     name: "GinjaCasino",
@@ -34,6 +22,18 @@ export const brands: Brand[] = [
     votes: 5921,
     badge: "new_casino",
   },
+  {
+    id: "SpinReelz",
+    name: "SpinReelz",
+    logo: "/brands/spinreelz.svg",
+    rating: 9.9,
+    bonus: "425% até 5500€ + 525RG",
+    url: "https://spinreelz777.net/dnjreg7bl?subid=SpinReelz-SL2PT7&visit_id=",
+    isMobile: true,
+    votes: 5921,
+    badge: "fast_withdrawal",
+  },
+  
   {
     id: "LolaJack",
     name: "LolaJack",
