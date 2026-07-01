@@ -54,6 +54,7 @@ export const brands: Brand[] = [
     url: "https://neospinlink.com/hi2yfh1ih?subid=NeoSpin-SL2PT7&visit_id=",
     isMobile: true,
     votes: 5921,
+    badge: "best_casino"
   },
   {
     id: "GoldenStar",
