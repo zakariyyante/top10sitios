@@ -57,15 +57,25 @@ export const brands: Brand[] = [
     badge: "best_casino"
   },
   {
-    id: "GoldenStar",
-    name: "GoldenStar",
-    logo: "/brands/goldenstar.svg",
+    id: "Sapphirebet",
+    name: "Sapphirebet",
+    logo: "/brands/sapphirebet.svg",
     rating: 9.9,
-    bonus: "Até 1000€ + 300RG",
-    url: "https://goldenstarlink.com/unlrkk3kv?subid=GoldenStar-SL2PT7&visit_id=",
+    bonus: "Pacote de boas-vindas do casino de até 1500€ + 150RG",
+    url: "https://track-sb.com/partners.php?id=ifn9dr45ghoxzfdxu7ff&web_id=Sapphirebet-SL2PT7&click_id=",
     isMobile: true,
     votes: 5921,
   },
+  // {
+  //   id: "GoldenStar",
+  //   name: "GoldenStar",
+  //   logo: "/brands/goldenstar.svg",
+  //   rating: 9.9,
+  //   bonus: "Até 1000€ + 300RG",
+  //   url: "https://goldenstarlink.com/unlrkk3kv?subid=GoldenStar-SL2PT7&visit_id=",
+  //   isMobile: true,
+  //   votes: 5921,
+  // },
   
   
   // {
