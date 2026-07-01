@@ -16,7 +16,7 @@ export const brands: Brand[] = [
     name: "GinjaCasino",
     logo: "/brands/GINJA.png",
     rating: 9.9,
-    bonus: "Pacote de boas-até €1000 + 555RG",
+    bonus: "Pacote de boas-até 1000€ + 555RG",
     url: "https://bestcpa.online/click?o=500&a=36&sub_id1=GinjaCasino-SL2PT7&aff_click_id=",
     isMobile: true,
     votes: 5921,
