@@ -46,16 +46,6 @@ export const brands: Brand[] = [
   //   badge: "best_casino",
   // },
   {
-    id: "GoldenStar",
-    name: "GoldenStar",
-    logo: "/brands/goldenstar.svg",
-    rating: 9.9,
-    bonus: "Até 1000€ + 300RG",
-    url: "https://goldenstarlink.com/unlrkk3kv?subid=GoldenStar-SL2PT7&visit_id=",
-    isMobile: true,
-    votes: 5921,
-  },
-  {
     id: "NeoSpin",
     name: "NeoSpin",
     logo: "/brands/neospin.svg",
@@ -65,6 +55,17 @@ export const brands: Brand[] = [
     isMobile: true,
     votes: 5921,
   },
+  {
+    id: "GoldenStar",
+    name: "GoldenStar",
+    logo: "/brands/goldenstar.svg",
+    rating: 9.9,
+    bonus: "Até 1000€ + 300RG",
+    url: "https://goldenstarlink.com/unlrkk3kv?subid=GoldenStar-SL2PT7&visit_id=",
+    isMobile: true,
+    votes: 5921,
+  },
+  
   
   // {
   //   id: "X3Bet",
