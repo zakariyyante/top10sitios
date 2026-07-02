@@ -100,6 +100,16 @@ export const brands: Brand[] = [
     votes: 5921,
     badge: "fast_withdrawal",
   },
+   {
+    id: "X3Bet",
+    name: "X3Bet",
+    logo: "/brands/x3bet.svg",
+    rating: 9.9,
+    bonus: "100% até 1000€ + 200RG",
+    url: "https://go.driveaffiliates.com/visit/?bta=35516&nci=5425&utm_campaign=X3Bet-SL2PT7&afp=",
+    isMobile: true,
+    votes: 5921,
+  },
   {
     id: "CrownGreen",
     name: "CrownGreen",
