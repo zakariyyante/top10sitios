@@ -13,7 +13,7 @@ interface BrandCardProps {
 
 declare global {
   interface Window {
-    gtag_report_conversion?: (url?: string) => void;
+    // gtag_report_conversion?: (url?: string) => void;
   }
 }
 
@@ -35,9 +35,6 @@ export default function BrandCard({ brand, index, gclid, compact }: BrandCardPro
       location: compact ? 'mobile_modal' : 'main_grid'
     });
 
-    if (typeof window !== 'undefined' && window.gtag_report_conversion) {
-      window.gtag_report_conversion(finalUrl);
-    }
     window.open(finalUrl, '_blank', 'noopener,noreferrer');
   };
 
