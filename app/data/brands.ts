@@ -111,6 +111,7 @@ export const brands: Brand[] = [
     url: "https://clickcrowngreen.com/aoxa5o0el?subid=CrownGreen-SL2PT7&visit_id=",
     isMobile: true,
     votes: 5921,
+    badge: "best_casino"
   },
   {
     id: "X3Bet",
