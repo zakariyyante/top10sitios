@@ -15,7 +15,7 @@ export default function ComplianceBar() {
           <p className="text-[11px] text-slate-400 max-w-4xl leading-relaxed text-center lg:text-left font-medium uppercase tracking-wider">
             Jogue com responsabilidade. O jogo pode ser viciante. Se precisar de ajuda, contacte a Linha de Apoio ao Jogador. 
             Regulado pelo <span className="text-white/80 font-bold">SRIJ - Serviço de Regulação e Inspeção de Jogos</span>. 
-            Visite <Link href="https://www.srij.turismodeportugal.pt/" target="_blank" className="text-cyan-400 hover:text-cyan-300 transition-colors underline decoration-1 underline-offset-4">SRIJ</Link> para mais informações. 
+            Visite <Link href="https://www.srij.turismodeportugal.pt/" target="_blank" className="text-primary hover:text-primary/80 transition-colors underline decoration-1 underline-offset-4">SRIJ</Link> para mais informações. 
             Linha de Apoio: <span className="text-white/80 font-bold">+351 211 167 300</span>.
           </p>
         </div>

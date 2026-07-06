@@ -11,30 +11,20 @@ export interface Brand {
 }
 
 export const brands: Brand[] = [
-  {
-    id: "GinjaCasino",
-    name: "GinjaCasino",
-    logo: "/brands/GINJA.png",
-    rating: 9.9,
-    bonus: "Pacote de boas-até 1000€ + 555RG",
-    url: "https://bestcpa.online/click?o=500&a=36&sub_id1=GinjaCasino-SL2PT7&aff_click_id=",
-    isMobile: true,
-    votes: 5921,
-    badge: "new_casino",
-  },
-  
-  
   // {
-  //   id: "LolaJack",
-  //   name: "LolaJack",
-  //   logo: "/brands/lolajack.webp",
+  //   id: "GinjaCasino",
+  //   name: "GinjaCasino",
+  //   logo: "/brands/GINJA.png",
   //   rating: 9.9,
-  //   bonus: "400% até 15000€ + 400RG",
-  //   url: "https://llj.lynmonkel.com/?mid=376549_2180185&subid=LolaJack-SL2PT7&clickid=",
+  //   bonus: "Pacote de boas-até 1000€ + 555RG",
+  //   url: "https://bestcpa.online/click?o=500&a=36&sub_id1=GinjaCasino-SL2PT7&aff_click_id=",
   //   isMobile: true,
   //   votes: 5921,
-  //   badge: "best_casino",
+  //   badge: "new_casino",
   // },
+  
+  
+ 
   // {
   //   id: "NeoSpin",
   //   name: "NeoSpin",
@@ -79,17 +69,6 @@ export const brands: Brand[] = [
   //   votes: 5921,
   // },
   {
-    id: "SpinyRush",
-    name: "SpinyRush",
-    logo: "/brands/SPINY.svg",
-    rating: 9.9,
-    bonus: "425% até 5500€ + 525RG",
-    url: "https://spinyrush777.net/dzp5c3o35?subid=SpinyRush-SL2PT7&visit_id=",
-    isMobile: true,
-    votes: 5921,
-    badge: "best_casino",
-  },
-  {
     id: "SpinReelz",
     name: "SpinReelz",
     logo: "/brands/spinreelz.svg",
@@ -100,27 +79,49 @@ export const brands: Brand[] = [
     votes: 5921,
     badge: "fast_withdrawal",
   },
-   
   // {
-  //   id: "CrownGreen",
-  //   name: "CrownGreen",
-  //   logo: "/brands/crown.svg",
+  //   id: "SpinyRush",
+  //   name: "SpinyRush",
+  //   logo: "/brands/SPINY.svg",
   //   rating: 9.9,
-  //   bonus: "ATÉ 6000€ + 250RG",
-  //   url: "https://clickcrowngreen.com/aoxa5o0el?subid=CrownGreen-SL2PT7&visit_id=",
+  //   bonus: "425% até 5500€ + 525RG",
+  //   url: "https://spinyrush777.net/dzp5c3o35?subid=SpinyRush-SL2PT7&visit_id=",
   //   isMobile: true,
   //   votes: 5921,
+  //   badge: "best_casino",
   // },
-  // {
-  //   id: "X3Bet",
-  //   name: "X3Bet",
-  //   logo: "/brands/x3bet.svg",
-  //   rating: 9.9,
-  //   bonus: "100% até 1000€ + 200RG",
-  //   url: "https://go.driveaffiliates.com/visit/?bta=35516&nci=5425&utm_campaign=X3Bet-SL2PT7&afp=",
-  //   isMobile: true,
-  //   votes: 5921,
-  // },
+  
+    {
+    id: "LolaJack",
+    name: "LolaJack",
+    logo: "/brands/lolajack.webp",
+    rating: 9.9,
+    bonus: "400% até 15000€ + 400RG",
+    url: "https://llj.lynmonkel.com/?mid=376549_2180185&subid=LolaJack-SL2PT7&clickid=",
+    isMobile: true,
+    votes: 5921,
+    badge: "new_casino",
+  },
+  {
+    id: "CrownGreen",
+    name: "CrownGreen",
+    logo: "/brands/crown.svg",
+    rating: 9.9,
+    bonus: "Até 6000€ + 250RG",
+    url: "https://clickcrowngreen.com/aoxa5o0el?subid=CrownGreen-SL2PT7&visit_id=",
+    isMobile: true,
+    votes: 5921,
+  },
+  {
+    id: "X3Bet",
+    name: "X3Bet",
+    logo: "/brands/x3bet.svg",
+    rating: 9.9,
+    bonus: "100% até 1000€ + 200RG",
+    url: "https://go.driveaffiliates.com/visit/?bta=35516&nci=5425&utm_campaign=X3Bet-SL2PT7&afp=",
+    isMobile: true,
+    votes: 5921,
+  },
   // {
   //   id: "SpinFin",
   //   name: "SpinFin",

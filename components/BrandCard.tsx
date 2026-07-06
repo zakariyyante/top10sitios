@@ -90,7 +90,7 @@ export default function BrandCard({ brand, index, gclid, compact }: BrandCardPro
                 return (
                   <div key={i} className="relative">
                     <svg 
-                      className={`${compact ? 'w-3.5 h-3.5' : 'w-5 h-5'} ${isFull ? 'text-yellow-400 drop-shadow-[0_0_8px_rgba(234,179,8,0.5)]' : 'text-white/10'}`} 
+                      className={`${compact ? 'w-3.5 h-3.5' : 'w-5 h-5'} ${isFull ? 'text-accent drop-shadow-[0_0_8px_rgba(234,179,8,0.5)]' : 'text-white/10'}`} 
                       fill="currentColor" 
                       viewBox="0 0 20 20"
                     >
@@ -99,7 +99,7 @@ export default function BrandCard({ brand, index, gclid, compact }: BrandCardPro
                     {isHalf && (
                       <div className="absolute inset-0 overflow-hidden w-1/2">
                         <svg 
-                          className={`${compact ? 'w-3.5 h-3.5' : 'w-5 h-5'} text-yellow-400 drop-shadow-[0_0_8px_rgba(234,179,8,0.5)]`} 
+                          className={`${compact ? 'w-3.5 h-3.5' : 'w-5 h-5'} text-accent drop-shadow-[0_0_8px_rgba(234,179,8,0.5)]`} 
                           fill="currentColor" 
                           viewBox="0 0 20 20"
                         >
@@ -124,10 +124,10 @@ export default function BrandCard({ brand, index, gclid, compact }: BrandCardPro
         {/* Bonus & CTA Section */}
         <div className={`${compact ? 'w-[65%] p-4 h-full' : 'p-8 h-full'} flex flex-col justify-between bg-slate-900/40`}>
           <div className={`${compact ? 'mb-2' : 'mb-8'} text-center`}>
-            <span className={`inline-block ${compact ? 'px-2 py-0.5 text-[8px] mb-1.5' : 'px-3 py-1 text-[10px] mb-4'} rounded-full bg-cyan-500/10 font-black text-cyan-400 uppercase tracking-[0.2em] border border-cyan-500/20`}>
+            <span className={`inline-block ${compact ? 'px-2 py-0.5 text-[8px] mb-1.5' : 'px-3 py-1 text-[10px] mb-4'} rounded-full bg-primary/10 font-black text-primary uppercase tracking-[0.2em] border border-primary/20`}>
               Bónus Exclusivo
             </span>
-            <h3 className={`${compact ? 'text-base mb-2 leading-tight' : 'text-2xl mb-4 leading-tight'} font-black text-white group-hover:text-cyan-400 transition-colors`}>
+            <h3 className={`${compact ? 'text-base mb-2 leading-tight' : 'text-2xl mb-4 leading-tight'} font-black text-white group-hover:text-primary transition-colors`}>
               {brand.bonus}
             </h3>
             {!compact && (
@@ -142,7 +142,7 @@ export default function BrandCard({ brand, index, gclid, compact }: BrandCardPro
           </div>
 
           <button 
-            className={`w-full ${compact ? 'py-3 rounded-xl text-xs' : 'py-5 rounded-2xl text-sm'} bg-gradient-to-r from-cyan-500 via-blue-600 to-purple-600 text-white font-black uppercase tracking-[0.2em] shadow-[0_10px_30px_rgba(6,182,212,0.3)] transition-all duration-500 hover:shadow-[0_15px_40px_rgba(6,182,212,0.5)] hover:-translate-y-1 active:scale-95`}
+            className={`w-full ${compact ? 'py-3 rounded-xl text-xs' : 'py-5 rounded-2xl text-sm'} bg-gradient-to-r from-primary via-blue-600 to-secondary text-white font-black uppercase tracking-[0.2em] shadow-[0_10px_30px_rgba(6,182,212,0.3)] transition-all duration-500 hover:shadow-[0_15px_40px_rgba(6,182,212,0.5)] hover:-translate-y-1 active:scale-95`}
           >
             Jogar no {brand.name}
           </button>

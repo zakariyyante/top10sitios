@@ -61,8 +61,8 @@ export default function MobileModal({ brands }: MobileModalProps) {
         </div>
 
         <div className="text-center mb-4">
-          <div className="inline-flex items-center gap-1.5 px-2 py-0.5 rounded-full bg-cyan-500/10 border border-cyan-500/20 mb-2">
-            <span className="text-[8px] font-black text-cyan-400 uppercase tracking-[0.2em]">
+          <div className="inline-flex items-center gap-1.5 px-2 py-0.5 rounded-full bg-primary/10 border border-primary/20 mb-2">
+            <span className="text-[8px] font-black text-primary uppercase tracking-[0.2em]">
               Acesso Móvel Elite
             </span>
           </div>
