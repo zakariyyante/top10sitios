@@ -97,7 +97,7 @@ export const brands: Brand[] = [
     rating: 9.9,
     bonus: "100% até 1000€ + 200RG",
     url: "https://go.driveaffiliates.com/visit/?bta=35516&nci=5451&utm_campaign=Atefia-SL2PT7&afp=",
-    isMobile: false,
+    isMobile: true,
     votes: 5921,
     badge: "new_casino"
   },
