@@ -99,6 +99,7 @@ export const brands: Brand[] = [
     url: "https://go.driveaffiliates.com/visit/?bta=35516&nci=5451&utm_campaign=Atefia-SL2PT7&afp=",
     isMobile: false,
     votes: 5921,
+    badge: "new_casino"
   },
   {
     id: "SpinyRush",
