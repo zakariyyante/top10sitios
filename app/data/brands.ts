@@ -89,14 +89,13 @@ export const brands: Brand[] = [
     isMobile: true,
     votes: 5921,
     badge: "best_casino"
-  },
-  {
-    id: "Atefia",
-    name: "Atefia",
-    logo: "/brands/atefia.webp",
+  },{
+    id: "NorthSpin",
+    name: "NorthSpin",
+    logo: "/brands/northspin.svg",
     rating: 9.9,
-    bonus: "100% até 1000€ + 200RG",
-    url: "https://go.driveaffiliates.com/visit/?bta=35516&nci=5451&utm_campaign=Atefia-SL2PT7&afp=",
+    bonus: "Até 6000€ + 225RG",
+    url: "https://clicknsp.com/t3w9j5skq?subid=NorthSpin-SL2PT7&visit_id=",
     isMobile: true,
     votes: 5921,
     badge: "new_casino"
@@ -111,19 +110,28 @@ export const brands: Brand[] = [
     isMobile: true,
     votes: 5921,
     badge: "fast_withdrawal",
-  },
-  
-   
+  },  
   {
-    id: "X3Bet",
-    name: "X3Bet",
-    logo: "/brands/x3bet.svg",
+    id: "Atefia",
+    name: "Atefia",
+    logo: "/brands/atefia.webp",
     rating: 9.9,
     bonus: "100% até 1000€ + 200RG",
-    url: "https://go.driveaffiliates.com/visit/?bta=35516&nci=5425&utm_campaign=X3Bet-SL2PT7&afp=",
+    url: "https://go.driveaffiliates.com/visit/?bta=35516&nci=5451&utm_campaign=Atefia-SL2PT7&afp=",
     isMobile: true,
     votes: 5921,
+    
   },
+  // {
+  //   id: "X3Bet",
+  //   name: "X3Bet",
+  //   logo: "/brands/x3bet.svg",
+  //   rating: 9.9,
+  //   bonus: "100% até 1000€ + 200RG",
+  //   url: "https://go.driveaffiliates.com/visit/?bta=35516&nci=5425&utm_campaign=X3Bet-SL2PT7&afp=",
+  //   isMobile: true,
+  //   votes: 5921,
+  // },
   // {
   //   id: "SpinFin",
   //   name: "SpinFin",
