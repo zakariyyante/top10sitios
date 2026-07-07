@@ -80,17 +80,6 @@ export const brands: Brand[] = [
   //   badge: "fast_withdrawal",
   // },
   {
-    id: "SpinyRush",
-    name: "SpinyRush",
-    logo: "/brands/SPINY.svg",
-    rating: 9.9,
-    bonus: "425% até 5500€ + 525RG",
-    url: "https://spinyrush777.net/dzp5c3o35?subid=SpinyRush-SL2PT7&visit_id=",
-    isMobile: true,
-    votes: 5921,
-    badge: "fast_withdrawal",
-  },
-  {
     id: "CrownGreen",
     name: "CrownGreen",
     logo: "/brands/crown.svg",
@@ -101,18 +90,29 @@ export const brands: Brand[] = [
     votes: 5921,
     badge: "best_casino"
   },
-    {
-    id: "LolaJack",
-    name: "LolaJack",
-    logo: "/brands/lolajack.webp",
+  {
+    id: "Atefia",
+    name: "Atefia",
+    logo: "/brands/atefia.webp",
     rating: 9.9,
-    bonus: "400% até 15000€ + 400RG",
-    url: "https://llj.lynmonkel.com/?mid=376549_2180185&subid=LolaJack-SL2PT7&clickid=",
+    bonus: "100% até 1000€ + 200RG",
+    url: "https://go.driveaffiliates.com/visit/?bta=35516&nci=5451&utm_campaign=Atefia-SL2PT7&afp=",
+    isMobile: false,
+    votes: 5921,
+  },
+  {
+    id: "SpinyRush",
+    name: "SpinyRush",
+    logo: "/brands/SPINY.svg",
+    rating: 9.9,
+    bonus: "425% até 5500€ + 525RG",
+    url: "https://spinyrush777.net/dzp5c3o35?subid=SpinyRush-SL2PT7&visit_id=",
     isMobile: true,
     votes: 5921,
-    badge: "new_casino",
+    badge: "fast_withdrawal",
   },
   
+   
   {
     id: "X3Bet",
     name: "X3Bet",
