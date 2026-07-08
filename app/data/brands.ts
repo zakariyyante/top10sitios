@@ -127,7 +127,7 @@ export const brands: Brand[] = [
   {
     id: "OlympusBet",
     name: "OlympusBet",
-    logo: "/brands/OlympusBet.svg",
+    logo: "/brands/Olympusbet.svg",
     rating: 9.9,
     bonus: "Pacote de boas-vindas 100% até 500€ + 100RG",
     url: "https://on.olympusbet100.com/promoRedirect?key=ej0xMzgzMDk3MyZsPTAmcD0zMjAwNQ%3D%3D&var2=OlympusBet-SL2PT7&var1=",
