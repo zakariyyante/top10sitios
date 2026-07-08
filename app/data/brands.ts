@@ -101,17 +101,17 @@ export const brands: Brand[] = [
     votes: 5921,
     badge: "fast_withdrawal",
   },
-  // {
-  //   id: "SpinyRush",
-  //   name: "SpinyRush",
-  //   logo: "/brands/SPINY.svg",
-  //   rating: 9.9,
-  //   bonus: "425% até 5500€ + 525RG",
-  //   url: "https://spinyrush777.net/dzp5c3o35?subid=SpinyRush-SL2PT7&visit_id=",
-  //   isMobile: true,
-  //   votes: 5921,
-  //   badge: "fast_withdrawal",
-  // },
+  {
+    id: "SpinyRush",
+    name: "SpinyRush",
+    logo: "/brands/SPINY.svg",
+    rating: 9.9,
+    bonus: "425% até 5500€ + 525RG",
+    url: "https://spinyrush777.net/dzp5c3o35?subid=SpinyRush-SL2PT7&visit_id=",
+    isMobile: true,
+    votes: 5921,
+    badge: "best_casino"
+  },
   // {
   //   id: "CrownGreen",
   //   name: "CrownGreen",
@@ -132,7 +132,7 @@ export const brands: Brand[] = [
     url: "https://on.olympusbet100.com/promoRedirect?key=ej0xMzgzMDk3MyZsPTAmcD0zMjAwNQ%3D%3D&var2=OlympusBet-SL2PT7&var1=",
     isMobile: true,
     votes: 5921,
-    badge: "best_casino"
+    
   },
     
  
