@@ -91,29 +91,6 @@ export const brands: Brand[] = [
     badge: "new_casino"
   },
   {
-    id: "SpinyRush",
-    name: "SpinyRush",
-    logo: "/brands/SPINY.svg",
-    rating: 9.9,
-    bonus: "425% até 5500€ + 525RG",
-    url: "https://spinyrush777.net/dzp5c3o35?subid=SpinyRush-SL2PT7&visit_id=",
-    isMobile: true,
-    votes: 5921,
-    badge: "fast_withdrawal",
-  },
-  {
-    id: "CrownGreen",
-    name: "CrownGreen",
-    logo: "/brands/crown.svg",
-    rating: 9.9,
-    bonus: "Até 6000€ + 250RG",
-    url: "https://clickcrowngreen.com/aoxa5o0el?subid=CrownGreen-SL2PT7&visit_id=",
-    isMobile: true,
-    votes: 5921,
-    badge: "best_casino"
-  },
-    
-  {
     id: "Atefia",
     name: "Atefia",
     logo: "/brands/atefia.webp",
@@ -124,6 +101,41 @@ export const brands: Brand[] = [
     votes: 5921,
     
   },
+  {
+    id: "SpinyRush",
+    name: "SpinyRush",
+    logo: "/brands/SPINY.svg",
+    rating: 9.9,
+    bonus: "425% até 5500€ + 525RG",
+    url: "https://spinyrush777.net/dzp5c3o35?subid=SpinyRush-SL2PT7&visit_id=",
+    isMobile: true,
+    votes: 5921,
+    badge: "fast_withdrawal",
+  },
+  // {
+  //   id: "CrownGreen",
+  //   name: "CrownGreen",
+  //   logo: "/brands/crown.svg",
+  //   rating: 9.9,
+  //   bonus: "Até 6000€ + 250RG",
+  //   url: "https://clickcrowngreen.com/aoxa5o0el?subid=CrownGreen-SL2PT7&visit_id=",
+  //   isMobile: true,
+  //   votes: 5921,
+  //   badge: "best_casino"
+  // },
+  // {
+  //   id: "OlympusBet",
+  //   name: "OlympusBet",
+  //   logo: "/brands/crown.svg",
+  //   rating: 9.9,
+  //   bonus: "Pacote de boas-vindas 100% até 500€ + 100RG",
+  //   url: "https://on.olympusbet100.com/promoRedirect?key=ej0xMzgzMDk3MyZsPTAmcD0zMjAwNQ%3D%3D&var2=OlympusBet-SL2PT7&var1=",
+  //   isMobile: true,
+  //   votes: 5921,
+  //   badge: "best_casino"
+  // },
+    
+ 
   // {
   //   id: "X3Bet",
   //   name: "X3Bet",
