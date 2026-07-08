@@ -91,6 +91,17 @@ export const brands: Brand[] = [
     badge: "new_casino"
   },
   {
+    id: "SpinyRush",
+    name: "SpinyRush",
+    logo: "/brands/SPINY.svg",
+    rating: 9.9,
+    bonus: "425% até 5500€ + 525RG",
+    url: "https://spinyrush777.net/dzp5c3o35?subid=SpinyRush-SL2PT7&visit_id=",
+    isMobile: true,
+    votes: 5921,
+    badge: "best_casino"
+  },
+  {
     id: "Atefia",
     name: "Atefia",
     logo: "/brands/atefia.webp",
@@ -101,17 +112,7 @@ export const brands: Brand[] = [
     votes: 5921,
     badge: "fast_withdrawal",
   },
-  // {
-  //   id: "SpinyRush",
-  //   name: "SpinyRush",
-  //   logo: "/brands/SPINY.svg",
-  //   rating: 9.9,
-  //   bonus: "425% até 5500€ + 525RG",
-  //   url: "https://spinyrush777.net/dzp5c3o35?subid=SpinyRush-SL2PT7&visit_id=",
-  //   isMobile: true,
-  //   votes: 5921,
-  //   badge: "best_casino"
-  // },
+  
   // {
   //   id: "CrownGreen",
   //   name: "CrownGreen",
