@@ -91,6 +91,17 @@ export const brands: Brand[] = [
     badge: "new_casino"
   },
   {
+    id: "BohoCasino",
+    name: "BohoCasino",
+    logo: "/brands/BOHO.svg",
+    rating: 9.9,
+    bonus: "Depósito de boas-vindas 100% até €1000 + 100RG",
+    url: "https://bohoaff.com/aykajc7p1?subid=BohoCasino-SL2PT7&visit_id=",
+    isMobile: true,
+    votes: 5921,
+    badge: "best_casino"
+  },
+  {
     id: "SpinyRush",
     name: "SpinyRush",
     logo: "/brands/SPINY.svg",
@@ -99,8 +110,10 @@ export const brands: Brand[] = [
     url: "https://spinyrush777.net/dzp5c3o35?subid=SpinyRush-SL2PT7&visit_id=",
     isMobile: true,
     votes: 5921,
-    badge: "best_casino"
+    badge: "fast_withdrawal",
   },
+  
+  
   {
     id: "Atefia",
     name: "Atefia",
@@ -110,9 +123,7 @@ export const brands: Brand[] = [
     url: "https://go.driveaffiliates.com/visit/?bta=35516&nci=5451&utm_campaign=Atefia-SL2PT7&afp=",
     isMobile: true,
     votes: 5921,
-    badge: "fast_withdrawal",
   },
-  
   // {
   //   id: "CrownGreen",
   //   name: "CrownGreen",
@@ -124,17 +135,17 @@ export const brands: Brand[] = [
   //   votes: 5921,
   //   badge: "best_casino"
   // },
-  {
-    id: "OlympusBet",
-    name: "OlympusBet",
-    logo: "/brands/Olympusbet.svg",
-    rating: 9.9,
-    bonus: "Pacote de boas-vindas 100% até 500€ + 100RG",
-    url: "https://on.olympusbet100.com/promoRedirect?key=ej0xMzgzMDk3MyZsPTAmcD0zMjAwNQ%3D%3D&var2=OlympusBet-SL2PT7&var1=",
-    isMobile: true,
-    votes: 5921,
+  // {
+  //   id: "OlympusBet",
+  //   name: "OlympusBet",
+  //   logo: "/brands/Olympusbet.svg",
+  //   rating: 9.9,
+  //   bonus: "Pacote de boas-vindas 100% até 500€ + 100RG",
+  //   url: "https://on.olympusbet100.com/promoRedirect?key=ej0xMzgzMDk3MyZsPTAmcD0zMjAwNQ%3D%3D&var2=OlympusBet-SL2PT7&var1=",
+  //   isMobile: true,
+  //   votes: 5921,
     
-  },
+  // },
     
  
   // {
