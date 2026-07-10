@@ -36,16 +36,7 @@ export const brands: Brand[] = [
   //   votes: 5921,
   //   badge: "best_casino"
   // },
-  // {
-  //   id: "Sapphirebet",
-  //   name: "Sapphirebet",
-  //   logo: "/brands/sapphirebet.svg",
-  //   rating: 9.9,
-  //   bonus: "Pacote de boas-até 1500€ + 150RG",
-  //   url: "https://track-sb.com/partners.php?id=ifn9dr45ghoxzfdxu7ff&web_id=Sapphirebet-SL2PT7&click_id=",
-  //   isMobile: true,
-  //   votes: 5921,
-  // },
+  // 
   // {
   //   id: "GoldenStar",
   //   name: "GoldenStar",
@@ -102,6 +93,17 @@ export const brands: Brand[] = [
     badge: "fast_withdrawal",
   },
   {
+      id: "Sapphirebet",
+      name: "Sapphirebet",
+      logo: "/brands/sapphirebet.svg",
+      rating: 9.9,
+      bonus: "Pacote de boas-até 1500€ + 150RG",
+      url: "https://track-sb.com/partners.php?id=ifn9dr45ghoxzfdxu7ff&web_id=Sapphirebet-SL2PT7&click_id=",
+      isMobile: true,
+      votes: 5921,
+      badge: "best_casino"
+    },
+  {
     id: "Atefia",
     name: "Atefia",
     logo: "/brands/atefia.webp",
@@ -110,19 +112,19 @@ export const brands: Brand[] = [
     url: "https://go.driveaffiliates.com/visit/?bta=35516&nci=5451&utm_campaign=Atefia-SL2PT7&afp=",
     isMobile: true,
     votes: 5921,
-    badge: "best_casino"
-  },
-  {
-    id: "BohoCasino",
-    name: "BohoCasino",
-    logo: "/brands/BOHO.svg",
-    rating: 9.9,
-    bonus: "Depósito de boas-vindas 100% até 1000€ + 100RG",
-    url: "https://bohoaff.com/aykajc7p1?subid=BohoCasino-SL2PT7&visit_id=",
-    isMobile: true,
-    votes: 5921,
     
   },
+  // {
+  //   id: "BohoCasino",
+  //   name: "BohoCasino",
+  //   logo: "/brands/BOHO.svg",
+  //   rating: 9.9,
+  //   bonus: "Depósito de boas-vindas 100% até 1000€ + 100RG",
+  //   url: "https://bohoaff.com/aykajc7p1?subid=BohoCasino-SL2PT7&visit_id=",
+  //   isMobile: true,
+  //   votes: 5921,
+    
+  // },
 
   
   
