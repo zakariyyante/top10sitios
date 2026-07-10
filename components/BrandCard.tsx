@@ -128,7 +128,16 @@ export default function BrandCard({ brand, index, gclid, compact }: BrandCardPro
               Bónus Exclusivo
             </span>
             <h3 className={`${compact ? 'text-base mb-2 leading-tight' : 'text-2xl mb-4 leading-tight'} font-black text-white group-hover:text-primary transition-colors`}>
-              {brand.bonus}
+              {brand.bonus.split(/(".*?")/).map((part, i) => {
+                if (part.startsWith('"') && part.endsWith('"')) {
+                  return (
+                    <span key={i} className="bonus-glow">
+                      {part.slice(1, -1)}
+                    </span>
+                  );
+                }
+                return part;
+              })}
             </h3>
             {!compact && (
               <div className="flex items-center justify-center gap-2 text-emerald-400 text-xs font-black uppercase tracking-widest">
@@ -142,9 +151,10 @@ export default function BrandCard({ brand, index, gclid, compact }: BrandCardPro
           </div>
 
           <button 
-            className={`w-full ${compact ? 'py-3 rounded-xl text-xs' : 'py-5 rounded-2xl text-sm'} bg-gradient-to-r from-primary via-blue-600 to-secondary text-white font-black uppercase tracking-[0.2em] shadow-[0_10px_30px_rgba(6,182,212,0.3)] transition-all duration-500 hover:shadow-[0_15px_40px_rgba(6,182,212,0.5)] hover:-translate-y-1 active:scale-95`}
+            className={`w-full ${compact ? 'py-3 rounded-xl text-xs' : 'py-5 rounded-2xl text-sm'} bg-gradient-to-r from-primary via-blue-600 to-secondary text-white font-black uppercase tracking-[0.2em] shadow-[0_10px_30px_rgba(6,182,212,0.3)] transition-all duration-500 hover:shadow-[0_15px_40px_rgba(6,182,212,0.5)] hover:-translate-y-1 active:scale-95 relative overflow-hidden group/btn`}
           >
-            Jogar no {brand.name}
+            <span className="relative z-10">Jogar no {brand.name}</span>
+            <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent -translate-x-full group-hover/btn:animate-[shimmer_2s_infinite] pointer-events-none" />
           </button>
         </div>
       </div>
