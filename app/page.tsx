@@ -37,7 +37,7 @@ export default async function Home({ searchParams }: PageProps) {
             </h2>
             <div className="flex items-center justify-center gap-4">
               <div className="h-px w-12 bg-white/10" />
-              <p className="text-slate-500 font-black uppercase tracking-[0.3em] text-xs">Atualizado Junho 2026</p>
+              <p className="text-slate-500 font-black uppercase tracking-[0.3em] text-xs">ATUALIZADO EDITORIALMENTE - 10 DE JULHO DE 2026</p>
               <div className="h-px w-12 bg-white/10" />
             </div>
           </div>
