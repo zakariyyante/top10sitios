@@ -59,17 +59,7 @@ export const brands: Brand[] = [
   //   isMobile: true,
   //   votes: 5921,
   // },
-  // {
-  //   id: "SpinReelz",
-  //   name: "SpinReelz",
-  //   logo: "/brands/spinreelz.svg",
-  //   rating: 9.9,
-  //   bonus: "425% até 5500€ + 525RG",
-  //   url: "https://spinreelz777.net/dnjreg7bl?subid=SpinReelz-SL2PT7&visit_id=",
-  //   isMobile: true,
-  //   votes: 5921,
-  //   badge: "fast_withdrawal",
-  // },
+  
   {
     id: "SpinyRush",
     name: "SpinyRush",
@@ -92,7 +82,17 @@ export const brands: Brand[] = [
     votes: 5921,
     badge: "new_casino"
   },
-  
+  {
+    id: "SpinReelz",
+    name: "SpinReelz",
+    logo: "/brands/spinreelz.svg",
+    rating: 9.9,
+    bonus: "425% até 5500€ + 525RG",
+    url: "https://spinreelz777.net/dnjreg7bl?subid=SpinReelz-SL2PT7&visit_id=",
+    isMobile: true,
+    votes: 5921,
+    badge: "best_casino"
+  },
   {
       id: "Sapphirebet",
       name: "Sapphirebet",
@@ -102,19 +102,19 @@ export const brands: Brand[] = [
       url: "https://track-sb.com/partners.php?id=ifn9dr45ghoxzfdxu7ff&web_id=Sapphirebet-SL2PT7&click_id=",
       isMobile: true,
       votes: 5921,
-      badge: "best_casino"
+      
     },
-  {
-    id: "Atefia",
-    name: "Atefia",
-    logo: "/brands/atefia.webp",
-    rating: 9.9,
-    bonus: "100% até 1000€ + 200RG",
-    url: "https://go.driveaffiliates.com/visit/?bta=35516&nci=5451&utm_campaign=Atefia-SL2PT7&afp=",
-    isMobile: true,
-    votes: 5921,
+  // {
+  //   id: "Atefia",
+  //   name: "Atefia",
+  //   logo: "/brands/atefia.webp",
+  //   rating: 9.9,
+  //   bonus: "100% até 1000€ + 200RG",
+  //   url: "https://go.driveaffiliates.com/visit/?bta=35516&nci=5451&utm_campaign=Atefia-SL2PT7&afp=",
+  //   isMobile: true,
+  //   votes: 5921,
     
-  },
+  // },
   // {
   //   id: "BohoCasino",
   //   name: "BohoCasino",
