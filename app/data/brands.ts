@@ -110,6 +110,7 @@ export const brands: Brand[] = [
     url: "https://go.driveaffiliates.com/visit/?bta=35516&nci=5451&utm_campaign=Atefia-SL2PT7&afp=",
     isMobile: true,
     votes: 5921,
+    badge: "best_casino"
   },
   {
     id: "BohoCasino",
@@ -120,7 +121,7 @@ export const brands: Brand[] = [
     url: "https://bohoaff.com/aykajc7p1?subid=BohoCasino-SL2PT7&visit_id=",
     isMobile: true,
     votes: 5921,
-    badge: "best_casino"
+    
   },
 
   
