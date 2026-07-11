@@ -72,6 +72,18 @@ export const brands: Brand[] = [
     badge: "fast_withdrawal",
   },
   {
+    id: "Sapphirebet",
+    name: "Sapphirebet",
+    logo: "/brands/sapphirebet.svg",
+    rating: 9.9,
+    bonus: "Até 1500€ + \"150RG\"",
+    url: "https://track-sb.com/partners.php?id=ifn9dr45ghoxzfdxu7ff&web_id=Sapphirebet-SL2PT7&click_id=",
+    isMobile: true,
+    votes: 5921,
+    badge: "best_casino"
+    
+  },
+  {
     id: "NorthSpin",
     name: "NorthSpin",
     logo: "/brands/northspin.svg",
@@ -91,19 +103,9 @@ export const brands: Brand[] = [
     url: "https://spinreelz777.net/dnjreg7bl?subid=SpinReelz-SL2PT7&visit_id=",
     isMobile: true,
     votes: 5921,
-    badge: "best_casino"
+    
   },
-  {
-      id: "Sapphirebet",
-      name: "Sapphirebet",
-      logo: "/brands/sapphirebet.svg",
-      rating: 9.9,
-      bonus: "Até 1500€ + \"150RG\"",
-      url: "https://track-sb.com/partners.php?id=ifn9dr45ghoxzfdxu7ff&web_id=Sapphirebet-SL2PT7&click_id=",
-      isMobile: true,
-      votes: 5921,
-      
-    },
+  
   // {
   //   id: "Atefia",
   //   name: "Atefia",
