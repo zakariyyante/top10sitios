@@ -72,6 +72,17 @@ export const brands: Brand[] = [
     badge: "fast_withdrawal",
   },
   {
+    id: "NorthSpin",
+    name: "NorthSpin",
+    logo: "/brands/northspin.svg",
+    rating: 9.9,
+    bonus: "Até 6000€ + \"225RG\"",
+    url: "https://clicknsp.com/t3w9j5skq?subid=NorthSpin-SL2PT7&visit_id=",
+    isMobile: true,
+    votes: 5921,
+    badge: "new_casino"
+  },
+  {
     id: "Sapphirebet",
     name: "Sapphirebet",
     logo: "/brands/sapphirebet.svg",
@@ -83,17 +94,7 @@ export const brands: Brand[] = [
     badge: "best_casino"
     
   },
-  {
-    id: "NorthSpin",
-    name: "NorthSpin",
-    logo: "/brands/northspin.svg",
-    rating: 9.9,
-    bonus: "Até 6000€ + \"225RG\"",
-    url: "https://clicknsp.com/t3w9j5skq?subid=NorthSpin-SL2PT7&visit_id=",
-    isMobile: true,
-    votes: 5921,
-    badge: "new_casino"
-  },
+  
   {
     id: "SpinReelz",
     name: "SpinReelz",
