@@ -95,29 +95,29 @@ export const brands: Brand[] = [
     
   },
   
-  {
-    id: "SpinReelz",
-    name: "SpinReelz",
-    logo: "/brands/spinreelz.svg",
-    rating: 9.9,
-    bonus: "425% até 5500€ + \"525RG\"",
-    url: "https://spinreelz777.net/dnjreg7bl?subid=SpinReelz-SL2PT7&visit_id=",
-    isMobile: true,
-    votes: 5921,
-    
-  },
-  
   // {
-  //   id: "Atefia",
-  //   name: "Atefia",
-  //   logo: "/brands/atefia.webp",
+  //   id: "SpinReelz",
+  //   name: "SpinReelz",
+  //   logo: "/brands/spinreelz.svg",
   //   rating: 9.9,
-  //   bonus: "100% até 1000€ + \"200RG\"",
-  //   url: "https://go.driveaffiliates.com/visit/?bta=35516&nci=5451&utm_campaign=Atefia-SL2PT7&afp=",
+  //   bonus: "425% até 5500€ + \"525RG\"",
+  //   url: "https://spinreelz777.net/dnjreg7bl?subid=SpinReelz-SL2PT7&visit_id=",
   //   isMobile: true,
   //   votes: 5921,
     
   // },
+  
+  {
+    id: "Atefia",
+    name: "Atefia",
+    logo: "/brands/atefia.webp",
+    rating: 9.9,
+    bonus: "100% até 1000€ + \"200RG\"",
+    url: "https://go.driveaffiliates.com/visit/?bta=35516&nci=5451&utm_campaign=Atefia-SL2PT7&afp=",
+    isMobile: true,
+    votes: 5921,
+    
+  },
   // {
   //   id: "BohoCasino",
   //   name: "BohoCasino",
