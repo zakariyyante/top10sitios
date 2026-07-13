@@ -38,7 +38,7 @@ export default function MobileModal({ brands }: MobileModalProps) {
   return (
     <div className="fixed inset-0 z-[100] bg-[#0f051d] overflow-y-auto flex flex-col">
       <div className="flex-grow p-3">
-        <div className="flex justify-between items-center mb-4">
+        <div className="flex justify-between items-center mb-6">
           <div className="relative w-32 h-8">
             <Image
               src="/logo.png"
@@ -47,39 +47,29 @@ export default function MobileModal({ brands }: MobileModalProps) {
               className="object-contain"
             />
           </div>
-          <button 
-            onClick={() => {
-              setIsOpen(false);
-              document.body.style.overflow = "unset";
-            }}
-            className="p-1.5 text-white/50 hover:text-white transition-colors"
-          >
+          <button className="p-1.5 text-white/70 hover:text-white transition-colors">
             <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16m-7 6h7" />
             </svg>
           </button>
         </div>
 
         <div className="text-center mb-4">
-          <div className="inline-flex items-center gap-1.5 px-2 py-0.5 rounded-full bg-primary/10 border border-primary/20 mb-2">
-            <span className="text-[8px] font-black text-primary uppercase tracking-[0.2em]">
-              Acesso Móvel Elite
-            </span>
-          </div>
-          <h2 className="text-2xl font-black mb-4 leading-tight px-4">
-            OS MELHORES <span className="cyan-text">CASINOS MÓVEIS</span>
+          <h2 className="text-xl font-black mb-3 leading-tight text-white px-2">
+            Top Casinos com Levantamentos Rápidos em Portugal
           </h2>
+          <p className="text-slate-400 text-[11px] leading-relaxed px-4 font-medium mb-6">
+            Descubra ofertas exclusivas, levantamentos rápidos e plataformas populares em Portugal. Compare as melhores opções e encontre a recompensa ideal hoje.
+          </p>
 
-          <div className="text-center mb-2">
-            <p className="text-slate-500 font-bold uppercase tracking-[0.2em] text-[8px]">
-              ATUALIZADO EDITORIALMENTE - 10 DE JULHO DE 2026
-            </p>
-          </div>
-          
-          <div className="relative w-full overflow-hidden mb-6 mask-fade-edges">
+          <div className="relative w-full overflow-hidden mb-2 mask-fade-edges">
             <div className="flex animate-marquee-reverse whitespace-nowrap gap-3 w-max px-4">
               {[1, 2, 3, 4].map((i) => (
                 <div key={i} className="flex items-center gap-3">
+                  <div className="flex items-center gap-2 px-3 py-1.5 rounded-full bg-[#1e1a0a] border border-[#3e3515]">
+                    <span className="w-1.5 h-1.5 rounded-full bg-[#eab308] shadow-[0_0_10px_#eab308]" />
+                    <span className="text-[9px] font-bold text-[#eab308] uppercase tracking-wider">12 de Julho de 2026</span>
+                  </div>
                   <div className="flex items-center gap-1.5 px-3 py-1.5 rounded-full border border-white/10 bg-white/5 backdrop-blur-sm">
                     <svg className="w-3 h-3 text-cyan-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
@@ -120,8 +110,6 @@ export default function MobileModal({ brands }: MobileModalProps) {
               ))}
             </div>
           </div>
-
-          <p className="text-slate-400 text-[10px] font-medium uppercase tracking-widest">Acesso VIP instantâneo</p>
         </div>
 
         <div className="grid gap-3 mb-8">
