@@ -60,15 +60,14 @@ export const brands: Brand[] = [
   //   votes: 5921,
   // },
   {
-    id: "SpinyRush",
-    name: "SpinyRush",
-    logo: "/brands/SPINY.svg",
+    id: "NorthSpin",
+    name: "NorthSpin",
+    logo: "/brands/northspin.svg",
     rating: 9.9,
-    bonus: "425% até 5500€ + \"525RG\"",
-    url: "https://spinyrush777.net/dzp5c3o35?subid=SpinyRush-SL2PT7&visit_id=",
+    bonus: "Até 6000€ + \"225RG\"",
+    url: "https://clicknsp.com/t3w9j5skq?subid=NorthSpin-SL2PT7&visit_id=",
     isMobile: true,
     votes: 5921,
-    badge: "fast_withdrawal",
   },
   {
     id: "Spinlander",
@@ -82,6 +81,18 @@ export const brands: Brand[] = [
     badge: "new_casino"
   },
   {
+    id: "SpinyRush",
+    name: "SpinyRush",
+    logo: "/brands/SPINY.svg",
+    rating: 9.9,
+    bonus: "425% até 5500€ + \"525RG\"",
+    url: "https://spinyrush777.net/dzp5c3o35?subid=SpinyRush-SL2PT7&visit_id=",
+    isMobile: true,
+    votes: 5921,
+    badge: "fast_withdrawal",
+  },
+  
+  {
     id: "Betriviera",
     name: "Betriviera",
     logo: "/brands/BETRIVIERA.svg",
@@ -93,16 +104,7 @@ export const brands: Brand[] = [
     badge: "best_casino"
     
   },
-  {
-    id: "NorthSpin",
-    name: "NorthSpin",
-    logo: "/brands/northspin.svg",
-    rating: 9.9,
-    bonus: "Até 6000€ + \"225RG\"",
-    url: "https://clicknsp.com/t3w9j5skq?subid=NorthSpin-SL2PT7&visit_id=",
-    isMobile: true,
-    votes: 5921,
-  },
+ 
   
   
   
