@@ -60,6 +60,17 @@ export const brands: Brand[] = [
   //   votes: 5921,
   // },
   {
+    id: "SpinyRush",
+    name: "SpinyRush",
+    logo: "/brands/SPINY.svg",
+    rating: 9.9,
+    bonus: "425% até 5500€ + \"525RG\"",
+    url: "https://spinyrush777.net/dzp5c3o35?subid=SpinyRush-SL2PT7&visit_id=",
+    isMobile: true,
+    votes: 5921,
+    badge: "fast_withdrawal",
+  },
+  {
     id: "NorthSpin",
     name: "NorthSpin",
     logo: "/brands/northspin.svg",
@@ -82,17 +93,7 @@ export const brands: Brand[] = [
     badge: "best_casino"
     
   },
-  {
-    id: "SpinyRush",
-    name: "SpinyRush",
-    logo: "/brands/SPINY.svg",
-    rating: 9.9,
-    bonus: "425% até 5500€ + \"525RG\"",
-    url: "https://spinyrush777.net/dzp5c3o35?subid=SpinyRush-SL2PT7&visit_id=",
-    isMobile: true,
-    votes: 5921,
-    badge: "fast_withdrawal",
-  },
+  
   
   {
     id: "Sapphirebet",
@@ -103,8 +104,6 @@ export const brands: Brand[] = [
     url: "https://track-sb.com/partners.php?id=ifn9dr45ghoxzfdxu7ff&web_id=Sapphirebet-SL2PT7&click_id=",
     isMobile: true,
     votes: 5921,
-    badge: "best_casino"
-    
   },
   
   // {
