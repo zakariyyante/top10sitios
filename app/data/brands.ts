@@ -71,12 +71,12 @@ export const brands: Brand[] = [
     badge: "fast_withdrawal",
   },
   {
-    id: "NorthSpin",
-    name: "NorthSpin",
-    logo: "/brands/northspin.svg",
+    id: "Spinlander",
+    name: "Spinlander",
+    logo: "/brands/SPINLANDER.svg",
     rating: 9.9,
-    bonus: "Até 6000€ + \"225RG\"",
-    url: "https://clicknsp.com/t3w9j5skq?subid=NorthSpin-SL2PT7&visit_id=",
+    bonus: "250% até 2700€ + \"500RG\"",
+    url: "https://gospinlander.com/dx5p4hh4k?subid=Spinlander-SL2PT7&clickid=",
     isMobile: true,
     votes: 5921,
     badge: "new_casino"
@@ -93,18 +93,29 @@ export const brands: Brand[] = [
     badge: "best_casino"
     
   },
-  
-  
   {
-    id: "Sapphirebet",
-    name: "Sapphirebet",
-    logo: "/brands/sapphirebet.svg",
+    id: "NorthSpin",
+    name: "NorthSpin",
+    logo: "/brands/northspin.svg",
     rating: 9.9,
-    bonus: "Até 1500€ + \"150RG\"",
-    url: "https://track-sb.com/partners.php?id=ifn9dr45ghoxzfdxu7ff&web_id=Sapphirebet-SL2PT7&click_id=",
+    bonus: "Até 6000€ + \"225RG\"",
+    url: "https://clicknsp.com/t3w9j5skq?subid=NorthSpin-SL2PT7&visit_id=",
     isMobile: true,
     votes: 5921,
   },
+  
+  
+  
+  // {
+  //   id: "Sapphirebet",
+  //   name: "Sapphirebet",
+  //   logo: "/brands/sapphirebet.svg",
+  //   rating: 9.9,
+  //   bonus: "Até 1500€ + \"150RG\"",
+  //   url: "https://track-sb.com/partners.php?id=ifn9dr45ghoxzfdxu7ff&web_id=Sapphirebet-SL2PT7&click_id=",
+  //   isMobile: true,
+  //   votes: 5921,
+  // },
   
   // {
   //   id: "SpinReelz",
@@ -117,17 +128,17 @@ export const brands: Brand[] = [
   //   votes: 5921,
     
   // },
-  {
-    id: "Spinoloco",
-    name: "Spinoloco",
-    logo: "/brands/spinoloco.webp",
-    rating: 9.9,
-    bonus: "150% até 500€ + \"100RG\"",
-    url: "https://track-otn.com/trk.php?t=3034&c=5425&subid=Spinoloco-SL2PT7&click_id=",
-    isMobile: true,
-    votes: 5921,
+  // {
+  //   id: "Spinoloco",
+  //   name: "Spinoloco",
+  //   logo: "/brands/spinoloco.webp",
+  //   rating: 9.9,
+  //   bonus: "150% até 500€ + \"100RG\"",
+  //   url: "https://track-otn.com/trk.php?t=3034&c=5425&subid=Spinoloco-SL2PT7&click_id=",
+  //   isMobile: true,
+  //   votes: 5921,
     
-  },
+  // },
   
   // {
   //   id: "Atefia",
