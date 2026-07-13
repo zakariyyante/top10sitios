@@ -71,6 +71,18 @@ export const brands: Brand[] = [
     badge: "new_casino"
   },
   {
+    id: "Betriviera",
+    name: "Betriviera",
+    logo: "/brands/BETRIVIERA.svg",
+    rating: 9.9,
+    bonus: "100% até 2000€ + \"200RG\"",
+    url: "https://betriviera.media/n1dpslajtu?subid=Betriviera-SL2PT7&visit_id=",
+    isMobile: true,
+    votes: 5921,
+    badge: "best_casino"
+    
+  },
+  {
     id: "SpinyRush",
     name: "SpinyRush",
     logo: "/brands/SPINY.svg",
@@ -106,18 +118,29 @@ export const brands: Brand[] = [
   //   votes: 5921,
     
   // },
-  
   {
-    id: "Atefia",
-    name: "Atefia",
-    logo: "/brands/atefia.webp",
+    id: "Spinoloco",
+    name: "Spinoloco",
+    logo: "/brands/spinoloco.webp",
     rating: 9.9,
-    bonus: "100% até 1000€ + \"200RG\"",
-    url: "https://go.driveaffiliates.com/visit/?bta=35516&nci=5451&utm_campaign=Atefia-SL2PT7&afp=",
+    bonus: "150% até 500€ + \"100RG\"",
+    url: "https://track-otn.com/trk.php?t=3034&c=5425&subid=Spinoloco-SL2PT7&click_id=",
     isMobile: true,
     votes: 5921,
     
   },
+  
+  // {
+  //   id: "Atefia",
+  //   name: "Atefia",
+  //   logo: "/brands/atefia.webp",
+  //   rating: 9.9,
+  //   bonus: "100% até 1000€ + \"200RG\"",
+  //   url: "https://go.driveaffiliates.com/visit/?bta=35516&nci=5451&utm_campaign=Atefia-SL2PT7&afp=",
+  //   isMobile: true,
+  //   votes: 5921,
+    
+  // },
   // {
   //   id: "BohoCasino",
   //   name: "BohoCasino",
