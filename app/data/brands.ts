@@ -11,17 +11,17 @@ export interface Brand {
 }
 
 export const brands: Brand[] = [
-  // {
-  //   id: "GinjaCasino",
-  //   name: "GinjaCasino",
-  //   logo: "/brands/GINJA.png",
-  //   rating: 9.9,
-  //   bonus: "Pacote de boas-até 1000€ + \"555RG\"",
-  //   url: "https://bestcpa.online/click?o=500&a=36&sub_id1=GinjaCasino-SL2PT7&aff_click_id=",
-  //   isMobile: true,
-  //   votes: 5921,
-  //   badge: "new_casino",
-  // },
+  {
+    id: "GinjaCasino",
+    name: "GinjaCasino",
+    logo: "/brands/GINJA.png",
+    rating: 9.9,
+    bonus: "Pacote de boas-até 1200€ + \"555RG\"",
+    url: "https://affgo.org/?serial=61357255&creative_id=7260&source_id1=GinjaCasino-SL2PT7&anid=",
+    isMobile: true,
+    votes: 5921,
+    badge: "new_casino",
+  },
   
   
  
@@ -68,18 +68,19 @@ export const brands: Brand[] = [
     url: "https://clicknsp.com/t3w9j5skq?subid=NorthSpin-SL2PT7&visit_id=",
     isMobile: true,
     votes: 5921,
+    badge: "best_casino"
   },
-  {
-    id: "Spinlander",
-    name: "Spinlander",
-    logo: "/brands/SPINLANDER.svg",
-    rating: 9.9,
-    bonus: "250% até 2700€ + \"500RG\"",
-    url: "https://gospinlander.com/dx5p4hh4k?subid=Spinlander-SL2PT7&clickid=",
-    isMobile: true,
-    votes: 5921,
-    badge: "new_casino"
-  },
+  // {
+  //   id: "Spinlander",
+  //   name: "Spinlander",
+  //   logo: "/brands/SPINLANDER.svg",
+  //   rating: 9.9,
+  //   bonus: "250% até 2700€ + \"500RG\"",
+  //   url: "https://gospinlander.com/dx5p4hh4k?subid=Spinlander-SL2PT7&clickid=",
+  //   isMobile: true,
+  //   votes: 5921,
+  //   badge: "new_casino"
+  // },
   {
     id: "SpinyRush",
     name: "SpinyRush",
@@ -101,7 +102,7 @@ export const brands: Brand[] = [
     url: "https://betriviera.media/n1dpslajtu?subid=Betriviera-SL2PT7&visit_id=",
     isMobile: true,
     votes: 5921,
-    badge: "best_casino"
+    
     
   },
  
