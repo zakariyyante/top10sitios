@@ -79,7 +79,7 @@ export const brands: Brand[] = [
     logo: "/brands/northspin.svg",
     rating: 9.9,
     bonus: "Até 6000€ + \"225RG\"",
-    url: "https://clicknsp.com/t3w9j5skq?subid=NorthSpin-SL2PT7&visit_id=",
+    url: "https://bestcpa.online/click?o=546&a=75&aff_click_id=SL2PT7",
     isMobile: true,
     votes: 5921,
 
