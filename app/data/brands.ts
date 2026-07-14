@@ -11,17 +11,17 @@ export interface Brand {
 }
 
 export const brands: Brand[] = [
+  
   {
-    id: "Betriviera",
-    name: "Betriviera",
-    logo: "/brands/BETRIVIERA.svg",
+    id: "GoldenStar",
+    name: "GoldenStar",
+    logo: "/brands/goldenstar.svg",
     rating: 9.9,
-    bonus: "100% até 2000€ + \"200RG\"",
-    url: "https://betriviera.media/n1dpslajtu?subid=Betriviera-SL2PT7&visit_id=",
+    bonus: "Até 1000€ + \"300RG\"",
+    url: "https://goldenstarlink.com/unlrkk3kv?subid=GoldenStar-SL2PT7&visit_id=",
     isMobile: true,
     votes: 5921,
-    badge: "best_casino"
-    
+    badge: "fast_withdrawal",
   },
   {
     id: "GinjaCasino",
@@ -49,18 +49,19 @@ export const brands: Brand[] = [
   //   badge: "best_casino"
   // },
   // 
+ 
   {
-    id: "GoldenStar",
-    name: "GoldenStar",
-    logo: "/brands/goldenstar.svg",
+    id: "Betriviera",
+    name: "Betriviera",
+    logo: "/brands/BETRIVIERA.svg",
     rating: 9.9,
-    bonus: "Até 1000€ + \"300RG\"",
-    url: "https://goldenstarlink.com/unlrkk3kv?subid=GoldenStar-SL2PT7&visit_id=",
+    bonus: "100% até 2000€ + \"200RG\"",
+    url: "https://betriviera.media/n1dpslajtu?subid=Betriviera-SL2PT7&visit_id=",
     isMobile: true,
     votes: 5921,
-    badge: "fast_withdrawal",
+    badge: "best_casino"
+    
   },
-  
   
   // {
   //   id: "X3Bet",
