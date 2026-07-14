@@ -12,6 +12,18 @@ export interface Brand {
 
 export const brands: Brand[] = [
   {
+    id: "Betriviera",
+    name: "Betriviera",
+    logo: "/brands/BETRIVIERA.svg",
+    rating: 9.9,
+    bonus: "100% até 2000€ + \"200RG\"",
+    url: "https://betriviera.media/n1dpslajtu?subid=Betriviera-SL2PT7&visit_id=",
+    isMobile: true,
+    votes: 5921,
+    badge: "best_casino"
+    
+  },
+  {
     id: "GinjaCasino",
     name: "GinjaCasino",
     logo: "/brands/GINJA.png",
@@ -37,16 +49,17 @@ export const brands: Brand[] = [
   //   badge: "best_casino"
   // },
   // 
-  // {
-  //   id: "GoldenStar",
-  //   name: "GoldenStar",
-  //   logo: "/brands/goldenstar.svg",
-  //   rating: 9.9,
-  //   bonus: "Até 1000€ + \"300RG\"",
-  //   url: "https://goldenstarlink.com/unlrkk3kv?subid=GoldenStar-SL2PT7&visit_id=",
-  //   isMobile: true,
-  //   votes: 5921,
-  // },
+  {
+    id: "GoldenStar",
+    name: "GoldenStar",
+    logo: "/brands/goldenstar.svg",
+    rating: 9.9,
+    bonus: "Até 1000€ + \"300RG\"",
+    url: "https://goldenstarlink.com/unlrkk3kv?subid=GoldenStar-SL2PT7&visit_id=",
+    isMobile: true,
+    votes: 5921,
+    badge: "fast_withdrawal",
+  },
   
   
   // {
@@ -68,7 +81,7 @@ export const brands: Brand[] = [
     url: "https://clicknsp.com/t3w9j5skq?subid=NorthSpin-SL2PT7&visit_id=",
     isMobile: true,
     votes: 5921,
-    badge: "best_casino"
+
   },
   // {
   //   id: "Spinlander",
@@ -81,30 +94,19 @@ export const brands: Brand[] = [
   //   votes: 5921,
   //   badge: "new_casino"
   // },
-  {
-    id: "SpinyRush",
-    name: "SpinyRush",
-    logo: "/brands/SPINY.svg",
-    rating: 9.9,
-    bonus: "425% até 5500€ + \"525RG\"",
-    url: "https://spinyrush777.net/dzp5c3o35?subid=SpinyRush-SL2PT7&visit_id=",
-    isMobile: true,
-    votes: 5921,
-    badge: "fast_withdrawal",
-  },
+  // {
+  //   id: "SpinyRush",
+  //   name: "SpinyRush",
+  //   logo: "/brands/SPINY.svg",
+  //   rating: 9.9,
+  //   bonus: "425% até 5500€ + \"525RG\"",
+  //   url: "https://spinyrush777.net/dzp5c3o35?subid=SpinyRush-SL2PT7&visit_id=",
+  //   isMobile: true,
+  //   votes: 5921,
+  //   
+  // },
   
-  {
-    id: "Betriviera",
-    name: "Betriviera",
-    logo: "/brands/BETRIVIERA.svg",
-    rating: 9.9,
-    bonus: "100% até 2000€ + \"200RG\"",
-    url: "https://betriviera.media/n1dpslajtu?subid=Betriviera-SL2PT7&visit_id=",
-    isMobile: true,
-    votes: 5921,
-    
-    
-  },
+
  
   
   
