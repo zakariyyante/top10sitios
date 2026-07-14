@@ -16,7 +16,7 @@ export const brands: Brand[] = [
     name: "GinjaCasino",
     logo: "/brands/GINJA.png",
     rating: 9.9,
-    bonus: "Pacote de boas-até 1200€ + \"555RG\"",
+    bonus: "Até 1200€ + \"555RG\"",
     url: "https://affgo.org/?serial=61357255&creative_id=7260&source_id1=GinjaCasino-SL2PT7&anid=",
     isMobile: true,
     votes: 5921,
