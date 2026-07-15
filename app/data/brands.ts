@@ -11,19 +11,29 @@ export interface Brand {
 }
 
 export const brands: Brand[] = [
+  // {
+  //   id: "NorthSpin",
+  //   name: "NorthSpin",
+  //   logo: "/brands/northspin.svg",
+  //   rating: 9.9,
+  //   bonus: "Até 6000€ + \"225RG\"",
+  //   url: "https://clicknsp.com/t3w9j5skq?subid=NorthSpin-SL2PT7&visit_id=",
+  //   isMobile: true,
+  //   votes: 5921,
+  //   badge: "best_casino"
+
+  // },
   {
-    id: "NorthSpin",
-    name: "NorthSpin",
-    logo: "/brands/northspin.svg",
+    id: "GinjaCasino",
+    name: "GinjaCasino",
+    logo: "/brands/GINJA.png",
     rating: 9.9,
-    bonus: "Até 6000€ + \"225RG\"",
-    url: "https://clicknsp.com/t3w9j5skq?subid=NorthSpin-SL2PT7&visit_id=",
+    bonus: "Até 1200€ + \"555RG\"",
+    url: "https://affgo.org/?serial=61357255&creative_id=7260&source_id1=GinjaCasino-SL2PT7&anid=",
     isMobile: true,
     votes: 5921,
-    badge: "best_casino"
-
+    badge: "new_casino",
   },
-  
   {
     id: "Betriviera",
     name: "Betriviera",
@@ -48,30 +58,9 @@ export const brands: Brand[] = [
   //   badge: "fast_withdrawal",
   // },
   
-  {
-    id: "GinjaCasino",
-    name: "GinjaCasino",
-    logo: "/brands/GINJA.png",
-    rating: 9.9,
-    bonus: "Até 1200€ + \"555RG\"",
-    url: "https://affgo.org/?serial=61357255&creative_id=7260&source_id1=GinjaCasino-SL2PT7&anid=",
-    isMobile: true,
-    votes: 5921,
-    badge: "new_casino",
-  },
   
-  // {
-  //   id: "NorthSpin",
-  //   name: "NorthSpin",
-  //   logo: "/brands/northspin.svg",
-  //   rating: 9.9,
-  //   bonus: "Até 6000€ + \"225RG\"",
-  //   url: "https://bestcpa.online/click?o=546&a=75&aff_click_id=SL2PT7",
-  //   isMobile: true,
-  //   votes: 5921,
-  //   badge: "best_casino"
-
-  // },
+  
+ 
  
   // {
   //   id: "NeoSpin",
@@ -86,17 +75,17 @@ export const brands: Brand[] = [
   // },
   // 
  
-  {
-    id: "SpinyRush",
-    name: "SpinyRush",
-    logo: "/brands/SPINY.svg",
-    rating: 9.9,
-    bonus: "425% até 5500€ + \"525RG\"",
-    url: "https://spinyrush777.net/dzp5c3o35?subid=SpinyRush-SL2PT7&visit_id=",
-    isMobile: true,
-    votes: 5921,
+  // {
+  //   id: "SpinyRush",
+  //   name: "SpinyRush",
+  //   logo: "/brands/SPINY.svg",
+  //   rating: 9.9,
+  //   bonus: "425% até 5500€ + \"525RG\"",
+  //   url: "https://spinyrush777.net/dzp5c3o35?subid=SpinyRush-SL2PT7&visit_id=",
+  //   isMobile: true,
+  //   votes: 5921,
     
-  },
+  // },
   
   {
     id: "X3Bet",
@@ -121,7 +110,18 @@ export const brands: Brand[] = [
     badge: "new_casino"
   },
   
-  
+   // {
+  //   id: "NorthSpin",
+  //   name: "NorthSpin",
+  //   logo: "/brands/northspin.svg",
+  //   rating: 9.9,
+  //   bonus: "Até 6000€ + \"225RG\"",
+  //   url: "https://bestcpa.online/click?o=546&a=75&aff_click_id=SL2PT7",
+  //   isMobile: true,
+  //   votes: 5921,
+  //   badge: "best_casino"
+
+  // },
 
  
   
