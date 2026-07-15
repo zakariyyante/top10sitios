@@ -11,7 +11,18 @@ export interface Brand {
 }
 
 export const brands: Brand[] = [
-  
+  {
+    id: "NorthSpin",
+    name: "NorthSpin",
+    logo: "/brands/northspin.svg",
+    rating: 9.9,
+    bonus: "Até 6000€ + \"225RG\"",
+    url: "https://clicknsp.com/t3w9j5skq?subid=NorthSpin-SL2PT7&visit_id=",
+    isMobile: true,
+    votes: 5921,
+    badge: "best_casino"
+
+  },
   
   {
     id: "Betriviera",
@@ -49,18 +60,18 @@ export const brands: Brand[] = [
     badge: "new_casino",
   },
   
-  {
-    id: "NorthSpin",
-    name: "NorthSpin",
-    logo: "/brands/northspin.svg",
-    rating: 9.9,
-    bonus: "Até 6000€ + \"225RG\"",
-    url: "https://bestcpa.online/click?o=546&a=75&aff_click_id=SL2PT7",
-    isMobile: true,
-    votes: 5921,
-    badge: "best_casino"
+  // {
+  //   id: "NorthSpin",
+  //   name: "NorthSpin",
+  //   logo: "/brands/northspin.svg",
+  //   rating: 9.9,
+  //   bonus: "Até 6000€ + \"225RG\"",
+  //   url: "https://bestcpa.online/click?o=546&a=75&aff_click_id=SL2PT7",
+  //   isMobile: true,
+  //   votes: 5921,
+  //   badge: "best_casino"
 
-  },
+  // },
  
   // {
   //   id: "NeoSpin",
@@ -75,30 +86,6 @@ export const brands: Brand[] = [
   // },
   // 
  
-  
-  
-  // {
-  //   id: "X3Bet",
-  //   name: "X3Bet",
-  //   logo: "/brands/x3bet.svg",
-  //   rating: 9.9,
-  //   bonus: "100% até 1000€ + \"200RG\"",
-  //   url: "https://go.driveaffiliates.com/visit/?bta=35516&nci=5425&utm_campaign=X3Bet-SL2PT7&afp=",
-  //   isMobile: true,
-  //   votes: 5921,
-  // },
- 
-  // {
-  //   id: "Spinlander",
-  //   name: "Spinlander",
-  //   logo: "/brands/SPINLANDER.svg",
-  //   rating: 9.9,
-  //   bonus: "250% até 2700€ + \"500RG\"",
-  //   url: "https://gospinlander.com/dx5p4hh4k?subid=Spinlander-SL2PT7&clickid=",
-  //   isMobile: true,
-  //   votes: 5921,
-  //   badge: "new_casino"
-  // },
   {
     id: "SpinyRush",
     name: "SpinyRush",
@@ -110,6 +97,30 @@ export const brands: Brand[] = [
     votes: 5921,
     
   },
+  
+  {
+    id: "X3Bet",
+    name: "X3Bet",
+    logo: "/brands/x3bet.svg",
+    rating: 9.9,
+    bonus: "100% até 1000€ + \"200RG\"",
+    url: "https://go.driveaffiliates.com/visit/?bta=35516&nci=5425&utm_campaign=X3Bet-SL2PT7&afp=",
+    isMobile: true,
+    votes: 5921,
+  },
+ 
+  {
+    id: "Spinlander",
+    name: "Spinlander",
+    logo: "/brands/SPINLANDER.svg",
+    rating: 9.9,
+    bonus: "250% até 2700€ + \"500RG\"",
+    url: "https://gospinlander.com/dx5p4hh4k?subid=Spinlander-SL2PT7&clickid=",
+    isMobile: true,
+    votes: 5921,
+    badge: "new_casino"
+  },
+  
   
 
  
