@@ -11,7 +11,18 @@ export interface Brand {
 }
 
 export const brands: Brand[] = [
-  
+  {
+    id: "Betriviera",
+    name: "Betriviera",
+    logo: "/brands/BETRIVIERA.svg",
+    rating: 9.9,
+    bonus: "100% até 2000€ + \"200RG\"",
+    url: "https://betriviera.media/n1dpslajtu?subid=Betriviera-SL2PT7&visit_id=",
+    isMobile: true,
+    votes: 5921,
+    
+    
+  },
   {
     id: "GoldenStar",
     name: "GoldenStar",
@@ -23,18 +34,7 @@ export const brands: Brand[] = [
     votes: 5921,
     badge: "fast_withdrawal",
   },
-  {
-    id: "NorthSpin",
-    name: "NorthSpin",
-    logo: "/brands/northspin.svg",
-    rating: 9.9,
-    bonus: "Até 6000€ + \"225RG\"",
-    url: "https://bestcpa.online/click?o=546&a=75&aff_click_id=SL2PT7",
-    isMobile: true,
-    votes: 5921,
-    badge: "best_casino"
-
-  },
+  
   {
     id: "GinjaCasino",
     name: "GinjaCasino",
@@ -47,7 +47,18 @@ export const brands: Brand[] = [
     badge: "new_casino",
   },
   
-  
+  {
+    id: "NorthSpin",
+    name: "NorthSpin",
+    logo: "/brands/northspin.svg",
+    rating: 9.9,
+    bonus: "Até 6000€ + \"225RG\"",
+    url: "https://bestcpa.online/click?o=546&a=75&aff_click_id=SL2PT7",
+    isMobile: true,
+    votes: 5921,
+    badge: "best_casino"
+
+  },
  
   // {
   //   id: "NeoSpin",
@@ -62,18 +73,7 @@ export const brands: Brand[] = [
   // },
   // 
  
-  {
-    id: "Betriviera",
-    name: "Betriviera",
-    logo: "/brands/BETRIVIERA.svg",
-    rating: 9.9,
-    bonus: "100% até 2000€ + \"200RG\"",
-    url: "https://betriviera.media/n1dpslajtu?subid=Betriviera-SL2PT7&visit_id=",
-    isMobile: true,
-    votes: 5921,
-    
-    
-  },
+  
   
   // {
   //   id: "X3Bet",
