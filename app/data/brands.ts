@@ -23,17 +23,17 @@ export const brands: Brand[] = [
     
     
   },
-  {
-    id: "GoldenStar",
-    name: "GoldenStar",
-    logo: "/brands/goldenstar.svg",
-    rating: 9.9,
-    bonus: "Até 1000€ + \"300RG\"",
-    url: "https://goldenstarlink.com/unlrkk3kv?subid=GoldenStar-SL2PT7&visit_id=",
-    isMobile: true,
-    votes: 5921,
-    badge: "fast_withdrawal",
-  },
+  // {
+  //   id: "GoldenStar",
+  //   name: "GoldenStar",
+  //   logo: "/brands/goldenstar.svg",
+  //   rating: 9.9,
+  //   bonus: "Até 1000€ + \"300RG\"",
+  //   url: "https://goldenstarlink.com/unlrkk3kv?subid=GoldenStar-SL2PT7&visit_id=",
+  //   isMobile: true,
+  //   votes: 5921,
+  //   badge: "fast_withdrawal",
+  // },
   
   {
     id: "GinjaCasino",
