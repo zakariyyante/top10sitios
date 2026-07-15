@@ -11,6 +11,8 @@ export interface Brand {
 }
 
 export const brands: Brand[] = [
+  
+  
   {
     id: "Betriviera",
     name: "Betriviera",
@@ -97,17 +99,17 @@ export const brands: Brand[] = [
   //   votes: 5921,
   //   badge: "new_casino"
   // },
-  // {
-  //   id: "SpinyRush",
-  //   name: "SpinyRush",
-  //   logo: "/brands/SPINY.svg",
-  //   rating: 9.9,
-  //   bonus: "425% até 5500€ + \"525RG\"",
-  //   url: "https://spinyrush777.net/dzp5c3o35?subid=SpinyRush-SL2PT7&visit_id=",
-  //   isMobile: true,
-  //   votes: 5921,
-  //   
-  // },
+  {
+    id: "SpinyRush",
+    name: "SpinyRush",
+    logo: "/brands/SPINY.svg",
+    rating: 9.9,
+    bonus: "425% até 5500€ + \"525RG\"",
+    url: "https://spinyrush777.net/dzp5c3o35?subid=SpinyRush-SL2PT7&visit_id=",
+    isMobile: true,
+    votes: 5921,
+    
+  },
   
 
  
