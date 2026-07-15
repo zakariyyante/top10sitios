@@ -24,6 +24,18 @@ export const brands: Brand[] = [
     badge: "fast_withdrawal",
   },
   {
+    id: "NorthSpin",
+    name: "NorthSpin",
+    logo: "/brands/northspin.svg",
+    rating: 9.9,
+    bonus: "Até 6000€ + \"225RG\"",
+    url: "https://bestcpa.online/click?o=546&a=75&aff_click_id=SL2PT7",
+    isMobile: true,
+    votes: 5921,
+    badge: "best_casino"
+
+  },
+  {
     id: "GinjaCasino",
     name: "GinjaCasino",
     logo: "/brands/GINJA.png",
@@ -59,7 +71,7 @@ export const brands: Brand[] = [
     url: "https://betriviera.media/n1dpslajtu?subid=Betriviera-SL2PT7&visit_id=",
     isMobile: true,
     votes: 5921,
-    badge: "best_casino"
+    
     
   },
   
@@ -73,17 +85,7 @@ export const brands: Brand[] = [
   //   isMobile: true,
   //   votes: 5921,
   // },
-  {
-    id: "NorthSpin",
-    name: "NorthSpin",
-    logo: "/brands/northspin.svg",
-    rating: 9.9,
-    bonus: "Até 6000€ + \"225RG\"",
-    url: "https://bestcpa.online/click?o=546&a=75&aff_click_id=SL2PT7",
-    isMobile: true,
-    votes: 5921,
-
-  },
+ 
   // {
   //   id: "Spinlander",
   //   name: "Spinlander",
