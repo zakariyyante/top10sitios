@@ -34,7 +34,16 @@ export const brands: Brand[] = [
   //   votes: 5921,
   //   
   // },
-  
+  {
+    id: "Spinkong",
+    name: "Spinkong",
+    logo: "/brands/Spinkong.webp",
+    rating: 9.8,
+    bonus: "400% até €1000 + \"250RG\"",
+    url: "https://gtrfspkng.com/jqddltsgg?subid=Spinkong-SL2PT7&visit_id=",
+    isMobile: true,
+    votes: 12450,
+  },
   {
     id: "Spinlander",
     name: "Spinlander",
@@ -58,16 +67,7 @@ export const brands: Brand[] = [
     badge: "fast_withdrawal",
     
   },
-  {
-    id: "Spinkong",
-    name: "Spinkong",
-    logo: "/brands/Spinkong.webp",
-    rating: 9.8,
-    bonus: "400% até €1000 + \"250RG\"",
-    url: "https://gtrfspkng.com/jqddltsgg?subid=Spinkong-SL2PT7&visit_id=",
-    isMobile: true,
-    votes: 12450,
-  },
+ 
   {
     id: "X3Bet",
     name: "X3Bet",
