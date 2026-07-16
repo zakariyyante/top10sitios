@@ -63,7 +63,7 @@ export const brands: Brand[] = [
     name: "Spinkong",
     logo: "/brands/Spinkong.webp",
     rating: 9.8,
-    bonus: "400% até €1000 + 250 GG",
+    bonus: "400% até €1000 + \"250RG\"",
     url: "https://gtrfspkng.com/jqddltsgg?subid=Spinkong-SL2PT7&visit_id=",
     isMobile: true,
     votes: 12450,
