@@ -177,17 +177,17 @@ export const brands: Brand[] = [
     
   // },
   
-  {
-    id: "Atefia",
-    name: "Atefia",
-    logo: "/brands/atefia.webp",
-    rating: 9.9,
-    bonus: "100% até 1000€ + \"200RG\"",
-    url: "https://go.driveaffiliates.com/visit/?bta=35516&nci=5451&utm_campaign=Atefia-SL2PT7&afp=",
-    isMobile: true,
-    votes: 5921,
+  // {
+  //   id: "Atefia",
+  //   name: "Atefia",
+  //   logo: "/brands/atefia.webp",
+  //   rating: 9.9,
+  //   bonus: "100% até 1000€ + \"200RG\"",
+  //   url: "https://go.driveaffiliates.com/visit/?bta=35516&nci=5451&utm_campaign=Atefia-SL2PT7&afp=",
+  //   isMobile: true,
+  //   votes: 5921,
     
-  },
+  // },
   // {
   //   id: "BohoCasino",
   //   name: "BohoCasino",
