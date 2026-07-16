@@ -59,6 +59,16 @@ export const brands: Brand[] = [
     
   },
   {
+    id: "Spinkong",
+    name: "Spinkong",
+    logo: "/brands/Spinkong.webp",
+    rating: 9.8,
+    bonus: "400% até €1000 + 250 GG",
+    url: "https://gtrfspkng.com/jqddltsgg?subid=Spinkong-SL2PT7&visit_id=",
+    isMobile: true,
+    votes: 12450,
+  },
+  {
     id: "X3Bet",
     name: "X3Bet",
     logo: "/brands/x3bet.svg",
