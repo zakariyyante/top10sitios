@@ -11,18 +11,7 @@ export interface Brand {
 }
 
 export const brands: Brand[] = [
-  // {
-  //   id: "NorthSpin",
-  //   name: "NorthSpin",
-  //   logo: "/brands/northspin.svg",
-  //   rating: 9.9,
-  //   bonus: "Até 6000€ + \"225RG\"",
-  //   url: "https://clicknsp.com/t3w9j5skq?subid=NorthSpin-SL2PT7&visit_id=",
-  //   isMobile: true,
-  //   votes: 5921,
-  //   badge: "best_casino"
-
-  // },
+  
   // {
   //   id: "GinjaCasino",
   //   name: "GinjaCasino",
@@ -43,6 +32,7 @@ export const brands: Brand[] = [
     url: "https://gtrfspkng.com/jqddltsgg?subid=Spinkong-SL2PT7&visit_id=",
     isMobile: true,
     votes: 12450,
+    badge: "fast_withdrawal",
   },
   {
     id: "Spinlander",
@@ -56,6 +46,18 @@ export const brands: Brand[] = [
     badge: "new_casino",
   },
   {
+    id: "NorthSpin",
+    name: "NorthSpin",
+    logo: "/brands/northspin.svg",
+    rating: 9.9,
+    bonus: "Até 6000€ + \"225RG\"",
+    url: "https://clicknsp.com/t3w9j5skq?subid=NorthSpin-SL2PT7&visit_id=",
+    isMobile: true,
+    votes: 5921,
+    badge: "best_casino"
+
+  },
+  {
     id: "Betriviera",
     name: "Betriviera",
     logo: "/brands/BETRIVIERA.svg",
@@ -64,32 +66,32 @@ export const brands: Brand[] = [
     url: "https://betriviera.media/n1dpslajtu?subid=Betriviera-SL2PT7&visit_id=",
     isMobile: true,
     votes: 5921,
-    badge: "fast_withdrawal",
+    
     
   },
  
-  {
-    id: "X3Bet",
-    name: "X3Bet",
-    logo: "/brands/x3bet.svg",
-    rating: 9.9,
-    bonus: "100% até 1000€ + \"200RG\"",
-    url: "https://go.driveaffiliates.com/visit/?bta=35516&nci=5425&utm_campaign=X3Bet-SL2PT7&afp=",
-    isMobile: true,
-    votes: 5921,
-    badge: "best_casino"
-  },
-  {
-    id: "SpinyRush",
-    name: "SpinyRush",
-    logo: "/brands/SPINY.svg",
-    rating: 9.9,
-    bonus: "425% até 5500€ + \"525RG\"",
-    url: "https://spinyrush777.net/dzp5c3o35?subid=SpinyRush-SL2PT7&visit_id=",
-    isMobile: true,
-    votes: 5921,
+  // {
+  //   id: "X3Bet",
+  //   name: "X3Bet",
+  //   logo: "/brands/x3bet.svg",
+  //   rating: 9.9,
+  //   bonus: "100% até 1000€ + \"200RG\"",
+  //   url: "https://go.driveaffiliates.com/visit/?bta=35516&nci=5425&utm_campaign=X3Bet-SL2PT7&afp=",
+  //   isMobile: true,
+  //   votes: 5921,
+  //   badge: "best_casino"
+  // },
+  // {
+  //   id: "SpinyRush",
+  //   name: "SpinyRush",
+  //   logo: "/brands/SPINY.svg",
+  //   rating: 9.9,
+  //   bonus: "425% até 5500€ + \"525RG\"",
+  //   url: "https://spinyrush777.net/dzp5c3o35?subid=SpinyRush-SL2PT7&visit_id=",
+  //   isMobile: true,
+  //   votes: 5921,
     
-  },
+  // },
   
   // {
   //   id: "GoldenStar",
