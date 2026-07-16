@@ -23,17 +23,17 @@ export const brands: Brand[] = [
   //   badge: "best_casino"
 
   // },
-  {
-    id: "GinjaCasino",
-    name: "GinjaCasino",
-    logo: "/brands/GINJA.png",
-    rating: 9.9,
-    bonus: "Até 1200€ + \"555RG\"",
-    url: "https://affgo.org/?serial=61357255&creative_id=7260&source_id1=GinjaCasino-SL2PT7&anid=",
-    isMobile: true,
-    votes: 5921,
-    badge: "new_casino",
-  },
+  // {
+  //   id: "GinjaCasino",
+  //   name: "GinjaCasino",
+  //   logo: "/brands/GINJA.png",
+  //   rating: 9.9,
+  //   bonus: "Até 1200€ + \"555RG\"",
+  //   url: "https://affgo.org/?serial=61357255&creative_id=7260&source_id1=GinjaCasino-SL2PT7&anid=",
+  //   isMobile: true,
+  //   votes: 5921,
+  //   
+  // },
   {
     id: "X3Bet",
     name: "X3Bet",
@@ -46,6 +46,28 @@ export const brands: Brand[] = [
     badge: "best_casino"
   },
   {
+    id: "Spinlander",
+    name: "Spinlander",
+    logo: "/brands/SPINLANDER.svg",
+    rating: 9.9,
+    bonus: "250% até 2700€ + \"500RG\"",
+    url: "https://gospinlander.com/dx5p4hh4k?subid=Spinlander-SL2PT7&clickid=",
+    isMobile: true,
+    votes: 5921,
+    badge: "new_casino",
+  },
+  {
+    id: "SpinyRush",
+    name: "SpinyRush",
+    logo: "/brands/SPINY.svg",
+    rating: 9.9,
+    bonus: "425% até 5500€ + \"525RG\"",
+    url: "https://spinyrush777.net/dzp5c3o35?subid=SpinyRush-SL2PT7&visit_id=",
+    isMobile: true,
+    votes: 5921,
+    badge: "fast_withdrawal",
+  },
+  {
     id: "Betriviera",
     name: "Betriviera",
     logo: "/brands/BETRIVIERA.svg",
@@ -54,7 +76,7 @@ export const brands: Brand[] = [
     url: "https://betriviera.media/n1dpslajtu?subid=Betriviera-SL2PT7&visit_id=",
     isMobile: true,
     votes: 5921,
-    badge: "fast_withdrawal",
+    
     
   },
   // {
@@ -86,44 +108,24 @@ export const brands: Brand[] = [
   // },
   // 
  
-  // {
-  //   id: "SpinyRush",
-  //   name: "SpinyRush",
-  //   logo: "/brands/SPINY.svg",
-  //   rating: 9.9,
-  //   bonus: "425% até 5500€ + \"525RG\"",
-  //   url: "https://spinyrush777.net/dzp5c3o35?subid=SpinyRush-SL2PT7&visit_id=",
-  //   isMobile: true,
-  //   votes: 5921,
-    
-  // },
+  
   
   
  
-  {
-    id: "Spinlander",
-    name: "Spinlander",
-    logo: "/brands/SPINLANDER.svg",
-    rating: 9.9,
-    bonus: "250% até 2700€ + \"500RG\"",
-    url: "https://gospinlander.com/dx5p4hh4k?subid=Spinlander-SL2PT7&clickid=",
-    isMobile: true,
-    votes: 5921,
-    
-  },
   
-   {
-    id: "NorthSpin",
-    name: "NorthSpin",
-    logo: "/brands/northspin.svg",
-    rating: 9.9,
-    bonus: "Até 6000€ + \"225RG\"",
-    url: "https://bestcpa.online/click?o=546&a=75&aff_click_id=SL2PT7",
-    isMobile: true,
-    votes: 5921,
+  
+  //  {
+  //   id: "NorthSpin",
+  //   name: "NorthSpin",
+  //   logo: "/brands/northspin.svg",
+  //   rating: 9.9,
+  //   bonus: "Até 6000€ + \"225RG\"",
+  //   url: "https://bestcpa.online/click?o=546&a=75&aff_click_id=SL2PT7",
+  //   isMobile: true,
+  //   votes: 5921,
     
 
-  },
+  // },
 
  
   
@@ -163,17 +165,17 @@ export const brands: Brand[] = [
     
   // },
   
-  // {
-  //   id: "Atefia",
-  //   name: "Atefia",
-  //   logo: "/brands/atefia.webp",
-  //   rating: 9.9,
-  //   bonus: "100% até 1000€ + \"200RG\"",
-  //   url: "https://go.driveaffiliates.com/visit/?bta=35516&nci=5451&utm_campaign=Atefia-SL2PT7&afp=",
-  //   isMobile: true,
-  //   votes: 5921,
+  {
+    id: "Atefia",
+    name: "Atefia",
+    logo: "/brands/atefia.webp",
+    rating: 9.9,
+    bonus: "100% até 1000€ + \"200RG\"",
+    url: "https://go.driveaffiliates.com/visit/?bta=35516&nci=5451&utm_campaign=Atefia-SL2PT7&afp=",
+    isMobile: true,
+    votes: 5921,
     
-  // },
+  },
   // {
   //   id: "BohoCasino",
   //   name: "BohoCasino",
