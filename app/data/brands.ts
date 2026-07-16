@@ -43,6 +43,7 @@ export const brands: Brand[] = [
     url: "https://go.driveaffiliates.com/visit/?bta=35516&nci=5425&utm_campaign=X3Bet-SL2PT7&afp=",
     isMobile: true,
     votes: 5921,
+    badge: "best_casino"
   },
   {
     id: "Betriviera",
@@ -53,7 +54,7 @@ export const brands: Brand[] = [
     url: "https://betriviera.media/n1dpslajtu?subid=Betriviera-SL2PT7&visit_id=",
     isMobile: true,
     votes: 5921,
-    
+    badge: "fast_withdrawal",
     
   },
   // {
@@ -65,7 +66,7 @@ export const brands: Brand[] = [
   //   url: "https://goldenstarlink.com/unlrkk3kv?subid=GoldenStar-SL2PT7&visit_id=",
   //   isMobile: true,
   //   votes: 5921,
-  //   badge: "fast_withdrawal",
+  //   
   // },
   
   
@@ -108,21 +109,21 @@ export const brands: Brand[] = [
     url: "https://gospinlander.com/dx5p4hh4k?subid=Spinlander-SL2PT7&clickid=",
     isMobile: true,
     votes: 5921,
-    badge: "new_casino"
+    
   },
   
-   // {
-  //   id: "NorthSpin",
-  //   name: "NorthSpin",
-  //   logo: "/brands/northspin.svg",
-  //   rating: 9.9,
-  //   bonus: "Até 6000€ + \"225RG\"",
-  //   url: "https://bestcpa.online/click?o=546&a=75&aff_click_id=SL2PT7",
-  //   isMobile: true,
-  //   votes: 5921,
-  //   badge: "best_casino"
+   {
+    id: "NorthSpin",
+    name: "NorthSpin",
+    logo: "/brands/northspin.svg",
+    rating: 9.9,
+    bonus: "Até 6000€ + \"225RG\"",
+    url: "https://bestcpa.online/click?o=546&a=75&aff_click_id=SL2PT7",
+    isMobile: true,
+    votes: 5921,
+    
 
-  // },
+  },
 
  
   
