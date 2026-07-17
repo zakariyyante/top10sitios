@@ -24,17 +24,6 @@ export const brands: Brand[] = [
   //   
   // },
   {
-    id: "Spinkong",
-    name: "Spinkong",
-    logo: "/brands/Spinkong.webp",
-    rating: 9.8,
-    bonus: "400% até €1000 + \"250RG\"",
-    url: "https://gtrfspkng.com/jqddltsgg?subid=Spinkong-SL2PT7&visit_id=",
-    isMobile: true,
-    votes: 12450,
-    badge: "fast_withdrawal",
-  },
-  {
     id: "Spinlander",
     name: "Spinlander",
     logo: "/brands/SPINLANDER.svg",
@@ -45,6 +34,18 @@ export const brands: Brand[] = [
     votes: 5921,
     badge: "new_casino",
   },
+  {
+    id: "Spinkong",
+    name: "Spinkong",
+    logo: "/brands/Spinkong.webp",
+    rating: 9.8,
+    bonus: "400% até €1000 + \"250RG\"",
+    url: "https://gtrfspkng.com/jqddltsgg?subid=Spinkong-SL2PT7&visit_id=",
+    isMobile: true,
+    votes: 12450,
+    badge: "fast_withdrawal",
+  },
+  
   {
     id: "NorthSpin",
     name: "NorthSpin",
