@@ -41,7 +41,7 @@ export default function MobileModal({ brands }: MobileModalProps) {
         <div className="flex justify-between items-center mb-6">
           <div className="relative w-32 h-8">
             <Image
-              src="/logo.png"
+              src="/logo.svg"
               alt="Logo"
               fill
               className="object-contain"
@@ -56,10 +56,10 @@ export default function MobileModal({ brands }: MobileModalProps) {
 
         <div className="text-center mb-4">
           <h2 className="text-xl font-black mb-3 leading-tight text-white px-2">
-            Top Casinos com Levantamentos Rápidos em Portugal
+            Top Jogos com Opções Seguras em Portugal
           </h2>
           <p className="text-slate-400 text-[11px] leading-relaxed px-4 font-medium mb-6">
-            Descubra ofertas exclusivas, levantamentos rápidos e plataformas populares em Portugal. Compare as melhores opções e encontre a recompensa ideal hoje.
+            Descubra ofertas exclusivas, opções seguras de pagamento e plataformas populares em Portugal. Compare as melhores opções e encontre a recompensa ideal hoje.
           </p>
 
           <div className="relative w-full overflow-hidden mb-2 mask-fade-edges">
@@ -92,7 +92,7 @@ export default function MobileModal({ brands }: MobileModalProps) {
                     <svg className="w-3 h-3 text-amber-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M13 10V3L4 14h7v7l9-11h-7z" />
                     </svg>
-                    <span className="text-white/90 text-[9px] font-black uppercase tracking-wider">Levantamentos Rápidos</span>
+                    <span className="text-white/90 text-[9px] font-black uppercase tracking-wider">Opções Seguras</span>
                   </div>
                   <div className="flex items-center gap-1.5 px-2 py-1.5 rounded-full border border-white/10 bg-white/5 backdrop-blur-sm">
                     <svg className="w-3 h-3 text-red-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">

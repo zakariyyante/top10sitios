@@ -33,7 +33,7 @@ export default async function Home({ searchParams }: PageProps) {
         <div className="container mx-auto px-4">
           <div className="text-center mb-20">
             <h2 className="text-4xl md:text-7xl font-black mb-6 tracking-tight">
-              TOP 10 CASINOS <span className="cyan-text">ELITE</span>
+              TOP 10 JOGOS <span className="cyan-text">ELITE</span>
             </h2>
             <div className="flex items-center justify-center gap-4">
               <div className="h-px w-12 bg-white/10" />

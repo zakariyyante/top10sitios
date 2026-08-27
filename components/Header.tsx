@@ -13,20 +13,20 @@ export default function Header() {
         {/* Logo */}
         <Link href="/" className="flex items-center group">
           <div className="relative w-48 h-12">
-            <Image
-              src="/logo.png"
-              alt="Top 10 Sitios de Casino"
-              fill
-              className="object-contain"
-              priority
-            />
+              <Image
+                src="/logo.svg"
+                alt="Top 10 Sítios de Jogos"
+                fill
+                className="object-contain"
+                priority
+              />
           </div>
         </Link>
 
         {/* Desktop Nav */}
         <nav className="hidden md:flex items-center gap-8">
           <Link href="/" className="text-sm font-medium text-white/70 hover:text-[var(--accent)] transition-colors">Início</Link>
-          <Link href="/#brands" className="text-sm font-medium text-white/70 hover:text-[var(--accent)] transition-colors">Casinos</Link>
+          <Link href="/#brands" className="text-sm font-medium text-white/70 hover:text-[var(--accent)] transition-colors">Jogos</Link>
           <Link href="/#guide" className="text-sm font-medium text-white/70 hover:text-[var(--accent)] transition-colors">Guia</Link>
           <Link href="/about" className="text-sm font-medium text-white/70 hover:text-[var(--accent)] transition-colors">Sobre Nós</Link>
           <Link href="/contact" className="text-sm font-medium text-white/70 hover:text-[var(--accent)] transition-colors">Contacto</Link>
@@ -51,7 +51,7 @@ export default function Header() {
       {isMenuOpen && (
         <div className="md:hidden bg-[#1a0b2e] border-b border-white/10 py-4 px-4 flex flex-col gap-4">
           <Link href="/" className="text-base font-medium text-white/70" onClick={() => setIsMenuOpen(false)}>Início</Link>
-          <Link href="/#brands" className="text-base font-medium text-white/70" onClick={() => setIsMenuOpen(false)}>Casinos</Link>
+          <Link href="/#brands" className="text-base font-medium text-white/70" onClick={() => setIsMenuOpen(false)}>Jogos</Link>
           <Link href="/#guide" className="text-base font-medium text-white/70" onClick={() => setIsMenuOpen(false)}>Guia</Link>
           <Link href="/about" className="text-base font-medium text-white/70" onClick={() => setIsMenuOpen(false)}>Sobre Nós</Link>
           <Link href="/contact" className="text-base font-medium text-white/70" onClick={() => setIsMenuOpen(false)}>Contacto</Link>

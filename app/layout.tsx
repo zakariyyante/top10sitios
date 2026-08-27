@@ -9,8 +9,8 @@ import Footer from "@/components/Footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Top 10 Melhores Sites de Casino em Portugal 2026",
-  description: "Descubra os melhores sites de casino online em Portugal. Avaliações de especialistas, bónus exclusivos e sites licenciados pelo SRIJ.",
+  title: "Top 10 Melhores Sítios de Jogos em Portugal 2026",
+  description: "Descubra os melhores sítios de jogos online em Portugal. Avaliações de especialistas, bónus exclusivos e plataformas seguras.",
   icons: {
     icon: "/favicon.svg",
     apple: "/favicon.svg",

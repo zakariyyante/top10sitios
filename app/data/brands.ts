@@ -7,7 +7,7 @@ export interface Brand {
   url: string;
   isMobile: boolean;
   votes: number;
-  badge?: "fast_withdrawal" | "best_casino" | "new_casino";
+  badge?: "secure_options" | "best_game" | "new_game";
 }
 
 export const brands: Brand[] = [
@@ -32,7 +32,7 @@ export const brands: Brand[] = [
   //   url: "https://gospinlander.com/dx5p4hh4k?subid=Spinlander-SL2PT7&clickid=",
   //   isMobile: true,
   //   votes: 5921,
-  //   badge: "new_casino",
+  //   badge: "new_game",
   // },
   // {
   //   id: "Spinkong",
@@ -43,7 +43,7 @@ export const brands: Brand[] = [
   //   url: "https://gtrfspkng.com/jqddltsgg?subid=Spinkong-SL2PT7&visit_id=",
   //   isMobile: true,
   //   votes: 12450,
-  //   badge: "fast_withdrawal",
+  //   badge: "secure_options",
   // },
   
   // {
@@ -55,7 +55,7 @@ export const brands: Brand[] = [
   //   url: "https://clicknsp.com/t3w9j5skq?subid=NorthSpin-SL2PT7&visit_id=",
   //   isMobile: true,
   //   votes: 5921,
-  //   badge: "best_casino"
+  //   badge: "best_game"
 
   // },
   // {
@@ -119,7 +119,7 @@ export const brands: Brand[] = [
   //   url: "https://neospinlink.com/hi2yfh1ih?subid=NeoSpin-SL2PT7&visit_id=",
   //   isMobile: true,
   //   votes: 5921,
-  //   badge: "best_casino"
+  //   badge: "best_game"
   // },
   // 
  
@@ -215,7 +215,7 @@ export const brands: Brand[] = [
   //   url: "https://clickcrowngreen.com/aoxa5o0el?subid=CrownGreen-SL2PT7&visit_id=",
   //   isMobile: true,
   //   votes: 5921,
-  //   badge: "best_casino"
+  //   badge: "best_game"
   // },
   // {
   //   id: "OlympusBet",

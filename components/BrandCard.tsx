@@ -43,9 +43,9 @@ export default function BrandCard({ brand, index, gclid, compact }: BrandCardPro
   const autoVotes = Math.floor(15000 / (1 + index * 0.15)) + (index % 3) * 123;
 
   const getBadge = (idx: number) => {
-    if (brand.badge === "fast_withdrawal") return { label: "LEVANTAMENTOS RÁPIDOS", color: "from-emerald-400 to-emerald-600", text: "text-white" };
-    if (brand.badge === "best_casino") return { label: "MELHOR CASINO", color: "from-cyan-400 to-blue-600", text: "text-white" };
-    if (brand.badge === "new_casino") return { label: "NOVO CASINO", color: "from-purple-400 to-purple-600", text: "text-white" };
+    if (brand.badge === "secure_options") return { label: "OPÇÕES SEGURAS", color: "from-emerald-400 to-emerald-600", text: "text-white" };
+    if (brand.badge === "best_game") return { label: "MELHOR JOGO", color: "from-cyan-400 to-blue-600", text: "text-white" };
+    if (brand.badge === "new_game") return { label: "NOVO JOGO", color: "from-purple-400 to-purple-600", text: "text-white" };
     
     if (idx === 0) return { label: "1º ELITE", color: "from-[#fef08a] to-[#eab308]", text: "text-black" };
     if (idx === 1) return { label: "2º PREMIUM", color: "from-slate-200 to-slate-400", text: "text-black" };

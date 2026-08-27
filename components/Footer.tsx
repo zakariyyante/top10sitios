@@ -11,8 +11,8 @@ export default function Footer() {
           <Link href="/" className="flex items-center mb-10">
             <div className="relative w-56 h-14">
               <Image
-                src="/logo.png"
-                alt="Top 10 Sitios de Casino"
+                src="/logo.svg"
+                alt="Top 10 Sítios de Jogos"
                 fill
                 className="object-contain"
               />
@@ -23,7 +23,7 @@ export default function Footer() {
             <div className="flex flex-col gap-4">
               <h4 className="text-white font-bold uppercase tracking-widest text-xs">Links Rápidos</h4>
               <Link href="/" className="text-sm text-white/50 hover:text-white transition-colors">Início</Link>
-              <Link href="/#brands" className="text-sm text-white/50 hover:text-white transition-colors">Top Casinos</Link>
+              <Link href="/#brands" className="text-sm text-white/50 hover:text-white transition-colors">Top Jogos</Link>
               <Link href="/#guide" className="text-sm text-white/50 hover:text-white transition-colors">Guia de Avaliação</Link>
             </div>
             <div className="flex flex-col gap-4">
@@ -46,7 +46,7 @@ export default function Footer() {
 
         <div className="max-w-4xl mx-auto text-center mb-12">
           <p className="text-[10px] text-white/30 leading-relaxed uppercase tracking-wider">
-            AVISO: O topsitiosdecasino.org é um portal de afiliados independente. As nossas avaliações são baseadas na nossa experiência e pesquisa. 
+            AVISO: O top10sitiosdejogos.com é um portal de afiliados independente. As nossas avaliações são baseadas na nossa experiência e pesquisa. 
             Recebemos comissões dos operadores listados. O jogo é proibido para menores de 18 anos. 
             Todos os operadores listados são regulados pelo SRIJ - Serviço de Regulação e Inspeção de Jogos de Portugal.
           </p>
@@ -56,23 +56,32 @@ export default function Footer() {
           <div className="relative w-10 h-10">
             <Image src="/18plus.svg" alt="18+" fill className="object-contain" />
           </div>
-          <div className="relative w-24 h-10">
+          <Link 
+            href="https://www.srij.turismodeportugal.pt/pt/jogo-responsavel/o-que-e-o-jogo-responsavel" 
+            target="_blank" 
+            className="relative w-24 h-10 hover:opacity-100 transition-opacity"
+          >
             <Image src="/srij.svg" alt="SRIJ" fill className="object-contain" />
-          </div>
-          <div className="relative w-32 h-10">
-            <Image src="/begambleaware.svg" alt="BeGambleAware" fill className="object-contain" />
-          </div>
-          <div className="relative w-24 h-10">
-            <Image src="/GamCare.svg" alt="GamCare" fill className="object-contain" />
-          </div>
-          <div className="relative w-16 h-10">
-            <Image src="/IBAS.svg" alt="IBAS" fill className="object-contain" />
-          </div>
+          </Link>
+          <Link 
+            href="https://jogoresponsavel.pt/" 
+            target="_blank" 
+            className="relative w-32 h-10 hover:opacity-100 transition-opacity"
+          >
+            <Image src="/jogo-responsavel.png" alt="Jogo Responsável" fill className="object-contain" />
+          </Link>
+          <Link 
+            href="https://www.icad.pt/" 
+            target="_blank" 
+            className="relative w-28 h-10 hover:opacity-100 transition-opacity"
+          >
+            <Image src="/icad.png" alt="ICAD - Instituto para os Comportamentos Aditivos e as Dependências" fill className="object-contain" />
+          </Link>
         </div>
 
         <div className="text-center border-t border-white/5 pt-8">
           <p className="text-xs text-white/20">
-            © {currentYear} topsitiosdecasino.org. Todos os direitos reservados.
+            © {currentYear} top10sitiosdejogos.com. Todos os direitos reservados.
           </p>
         </div>
       </div>

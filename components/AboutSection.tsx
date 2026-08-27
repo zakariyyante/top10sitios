@@ -22,8 +22,8 @@ export default function AboutSection() {
             </h3>
             <ul className="space-y-6">
               {[
-                { title: "Auditoria de Licença", desc: "Verificação em tempo real com o SRIJ." },
-                { title: "Teste de Liquidez", desc: "Depósitos e levantamentos reais para testar a velocidade." },
+                { title: "Auditoria de Licença", desc: "Verificação em tempo real da segurança." },
+                { title: "Opções de Pagamento", desc: "Depósitos e transações seguras testadas pela equipa." },
                 { title: "Análise de Algoritmo", desc: "Verificação de RNG e justiça nos jogos." },
                 { title: "Suporte VIP", desc: "Avaliação da qualidade e tempo de resposta 24/7." },
               ].map((item, i) => (
