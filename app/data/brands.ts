@@ -12,24 +12,24 @@ export interface Brand {
 
 export const brands: Brand[] = [
   
-  {
-    id: "bwin",
-    name: "Bwin",
-    logo: "/brands/bwin_dark.png",
-    rating: 9.9,
-    bonus: "100% ATÉ €200 DE BÓNUS CASINO",
-    url: "https://www.bwin.pt/?utm_source=casinotoppt&utm_medium=referral&clickid=",
-    isMobile: false,
-    votes: 5921,
-  },
-  {
-    id: "bwin",
-    name: "Bwin",
-    logo: "/brands/bwin_dark.png",
-    rating: 9.9,
-    bonus: "100% ATÉ €200 DE BÓNUS CASINO",
-    url: "https://www.bwin.pt/?utm_source=casinotoppt&utm_medium=referral&clickid=",
-    isMobile: true,
-    votes: 5921,
-  },
+  // {
+  //   id: "bwin",
+  //   name: "Bwin",
+  //   logo: "/brands/bwin_dark.png",
+  //   rating: 9.9,
+  //   bonus: "100% ATÉ €200 DE BÓNUS CASINO",
+  //   url: "https://www.bwin.pt/?utm_source=casinotoppt&utm_medium=referral&clickid=",
+  //   isMobile: false,
+  //   votes: 5921,
+  // },
+  // {
+  //   id: "bwin",
+  //   name: "Bwin",
+  //   logo: "/brands/bwin_dark.png",
+  //   rating: 9.9,
+  //   bonus: "100% ATÉ €200 DE BÓNUS CASINO",
+  //   url: "https://www.bwin.pt/?utm_source=casinotoppt&utm_medium=referral&clickid=",
+  //   isMobile: true,
+  //   votes: 5921,
+  // },
 ];
