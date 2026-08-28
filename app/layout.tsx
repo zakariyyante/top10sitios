@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   },
 };
 
-const GA_MEASUREMENT_ID = "AW-18247199675";
+const GA_MEASUREMENT_ID = "AW-18385449193";
 
 export default function RootLayout({
   children,
@@ -38,6 +38,13 @@ export default function RootLayout({
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
             gtag('config', '${GA_MEASUREMENT_ID}');
+            
+            // Event snippet for Page view conversion
+            gtag('event', 'conversion', {
+                'send_to': 'AW-18385449193/MN7MCIHi2OkcEOnh7r5E',
+                'value': 1.0,
+                'currency': 'USD'
+            });
           `}
         </Script>
       </head>
