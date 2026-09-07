@@ -46,7 +46,7 @@ export default function Footer() {
 
         <div className="max-w-4xl mx-auto text-center mb-12">
           <p className="text-[10px] text-white/30 leading-relaxed uppercase tracking-wider">
-            AVISO: O topsitiosdecasino.org é um portal de afiliados independente. As nossas avaliações são baseadas na nossa experiência e pesquisa. 
+            AVISO: O topsitiosdecasino.net é um portal de afiliados independente. As nossas avaliações são baseadas na nossa experiência e pesquisa. 
             Recebemos comissões dos operadores listados. O jogo é proibido para menores de 18 anos. 
             Todos os operadores listados são regulados pelo SRIJ - Serviço de Regulação e Inspeção de Jogos de Portugal.
           </p>
@@ -72,7 +72,7 @@ export default function Footer() {
 
         <div className="text-center border-t border-white/5 pt-8">
           <p className="text-xs text-white/20">
-            © {currentYear} topsitiosdecasino.org. Todos os direitos reservados.
+            © {currentYear} topsitiosdecasino.net. Todos os direitos reservados.
           </p>
         </div>
       </div>
