@@ -37,9 +37,11 @@ export default function Footer() {
               <Link href="/about" className="text-sm text-white/50 hover:text-white transition-colors">Sobre Nós</Link>
               <Link href="/contact" className="text-sm text-white/50 hover:text-white transition-colors">Contacto</Link>
             </div>
-            <div className="flex flex-col gap-4">
+          <div className="flex flex-col gap-4">
               <h4 className="text-white font-bold uppercase tracking-widest text-xs">Responsável</h4>
-              <Link href="https://www.srij.turismodeportugal.pt/" target="_blank" className="text-sm text-white/50 hover:text-white transition-colors">SRIJ Portugal</Link>
+              <Link href="https://www.srij.turismodeportugal.pt/pt/jogo-responsavel/o-que-e-o-jogo-responsavel" target="_blank" className="text-sm text-white/50 hover:text-white transition-colors">SRIJ Portugal</Link>
+              <Link href="https://jogoresponsavel.pt/" target="_blank" className="text-sm text-white/50 hover:text-white transition-colors">Jogo Responsável</Link>
+              <Link href="https://www.icad.pt/" target="_blank" className="text-sm text-white/50 hover:text-white transition-colors">ICAD</Link>
             </div>
           </div>
         </div>
@@ -56,18 +58,15 @@ export default function Footer() {
           <div className="relative w-10 h-10">
             <Image src="/18plus.svg" alt="18+" fill className="object-contain" />
           </div>
-          <div className="relative w-24 h-10">
+          <Link href="https://www.srij.turismodeportugal.pt/pt/jogo-responsavel/o-que-e-o-jogo-responsavel" target="_blank" className="relative w-24 h-10 transition-opacity hover:opacity-100">
             <Image src="/srij.svg" alt="SRIJ" fill className="object-contain" />
-          </div>
-          <div className="relative w-32 h-10">
-            <Image src="/begambleaware.svg" alt="BeGambleAware" fill className="object-contain" />
-          </div>
-          <div className="relative w-24 h-10">
-            <Image src="/GamCare.svg" alt="GamCare" fill className="object-contain" />
-          </div>
-          <div className="relative w-16 h-10">
-            <Image src="/IBAS.svg" alt="IBAS" fill className="object-contain" />
-          </div>
+          </Link>
+          <Link href="https://jogoresponsavel.pt/" target="_blank" className="relative w-24 h-10 transition-opacity hover:opacity-100">
+            <Image src="/jogo.png" alt="Jogo Responsável" fill className="object-contain" />
+          </Link>
+          <Link href="https://www.icad.pt/" target="_blank" className="relative w-24 h-10 transition-opacity hover:opacity-100">
+            <Image src="/icad.png" alt="ICAD" fill className="object-contain" />
+          </Link>
         </div>
 
         <div className="text-center border-t border-white/5 pt-8">
