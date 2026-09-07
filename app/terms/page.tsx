@@ -4,7 +4,7 @@ export default function TermsOfService() {
       <h1 className="text-4xl font-black mb-8">Termos de Serviço</h1>
       <div className="prose prose-invert max-w-none text-white/70 space-y-6">
         <p>
-          Ao aceder ao topsitiosdecasino.net, concorda em cumprir estes termos de serviço.
+          Ao aceder ao topsitiosdecasinos.com, concorda em cumprir estes termos de serviço.
         </p>
         <h2 className="text-2xl font-bold text-white mt-8">1. Uso do Site</h2>
         <p>
@@ -16,7 +16,7 @@ export default function TermsOfService() {
         </p>
         <h2 className="text-2xl font-bold text-white mt-8">3. Propriedade Intelectual</h2>
         <p>
-          Todo o conteúdo deste site é propriedade do topsitiosdecasino.net e não pode ser reproduzido sem autorização prévia.
+          Todo o conteúdo deste site é propriedade do topsitiosdecasinos.com e não pode ser reproduzido sem autorização prévia.
         </p>
         <p className="text-sm italic mt-12">
           Ao continuar a utilizar este site, confirma que tem 18+ anos e aceita estes termos.
