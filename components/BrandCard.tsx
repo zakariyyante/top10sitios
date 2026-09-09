@@ -10,12 +10,6 @@ interface BrandCardProps {
   gclid?: string;
 }
 
-declare global {
-  interface Window {
-    gtag_report_conversion?: (url?: string) => void;
-  }
-}
-
 export default function BrandCard({ brand, index, gclid }: BrandCardProps) {
   const buildUrl = (url: string, gclid?: string) => {
     if (!gclid) return url;
@@ -25,9 +19,6 @@ export default function BrandCard({ brand, index, gclid }: BrandCardProps) {
   const handleCardClick = () => {
     const finalUrl = buildUrl(brand.url, gclid);
     track('Brand Click', { brand: brand.name });
-    if (typeof window !== 'undefined' && window.gtag_report_conversion) {
-      window.gtag_report_conversion(finalUrl);
-    }
     window.open(finalUrl, '_blank', 'noopener,noreferrer');
   };
 
